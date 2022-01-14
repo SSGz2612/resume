@@ -1,0 +1,84 @@
+.section2 {
+    margin: auto;
+    height: auto;
+}
+
+.section2-a1 {
+    width: 100%;
+    height: 180px;
+}
+
+.section2-a1-a {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 100%;
+    height: 160px;
+}
+
+.section2-a1-a1 {
+    width: 25%;
+    height: 140px;
+}
+
+.section2-a1-a1-a {
+    text-align: center;
+    line-height: 40px;
+    width: 100%;
+    height: 40px;
+}
+
+.section2-a1-a1-b {
+    background-image: url( "tools/JavaScript\ logo.svg" );
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 90px;
+
+    width: 100%;
+    height: 100px;
+}
+
+.section2-a1-a2 {
+    width: 25%;
+    height: 140px;
+}
+
+.section2-a1-a2-a {
+    text-align: center;
+    line-height: 40px;
+    width: 100%;
+    height: 40px;
+}
+
+.section2-a1-a2-b {
+    background-image: url( "tools/HTML\ logo.svg" );
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 90px;
+
+    width: 100%;
+    height: 100px;
+}
+
+.section2-a1-a3 {
+    width: 25%;
+    height: 140px;
+}
+
+.section2-a1-a3-a {
+    text-align: center;
+    line-height: 40px;
+    width: 100%;
+    height: 40px;
+}
+
+.section2-a1-a3-b {
+    background-image: url( "tools/CSS\ logo.svg" );
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 90px;
+
+    width: 100%;
+    height: 100px;
+}
