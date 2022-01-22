@@ -30,7 +30,7 @@
 }
 
 .section2-a1-a1-b {
-    background-image: url( "tools/JavaScript\ logo.svg" );
+    /* background-image: url( "tools/JavaScript\ logo.svg" ); */
     background-repeat: no-repeat;
     background-position: center;
     background-size: 90px;
@@ -52,7 +52,7 @@
 }
 
 .section2-a1-a2-b {
-    background-image: url( "tools/HTML\ logo.svg" );
+    /* background-image: url( "tools/HTML\ logo.svg" ); */
     background-repeat: no-repeat;
     background-position: center;
     background-size: 90px;
@@ -74,7 +74,7 @@
 }
 
 .section2-a1-a3-b {
-    background-image: url( "tools/CSS\ logo.svg" );
+    /* background-image: url( "tools/CSS\ logo.svg" ); */
     background-repeat: no-repeat;
     background-position: center;
     background-size: 90px;

@@ -129,13 +129,6 @@
 
 @media only screen and ( min-width: 769px ) {
     /* - - - - - nav - - - - - */
-    .nav {
-        background-image: url( "tools/backgP2.jpg" );
-        background-repeat: no-repeat;
-        background-attachment: inherit;
-        background-position: bottom;
-    }
-
     .nav-b2-b1 {
         display: none;
     }
@@ -215,10 +208,6 @@
     }
 
     /* - - - - - header - - - - - */
-    .header-pc {
-        background-image: url( "tools/backgP1.jpg" );
-    }
-
     .header-pc-a2-f {
         display: none;
     }
