@@ -1,3 +1,6 @@
+var s1 = document.getElementById( "nav_c1" );
+var s2 = document.getElementById( "nav_d1" );
+
 var x1 = document.getElementById( "nav_c1_1" );
 var x2 = document.getElementById( "nav_c1_1_1" );
 var w1 = document.getElementById( "nav_c1_2" );
@@ -28,7 +31,7 @@ function changeL( lan ) {
 }
 
 function nav_c1_1() {
-    console.log( "click Gral boton!" );
+    console.log( "click Gral boton!" ); // delete later
     x1.style.display = "none";
     w1.style.display = "flex";
     y1.style.display = "flex";
@@ -71,7 +74,11 @@ function nav_c1_4() {
 function nav_d1_2() {
     if( x1.style.display == "none" ) {
         x1.style.display = "flex";
-        v1.style.display = "none";
+        
+        v1.style.display = "none"; // nav_d1_1
+        v1.style.backgroundColor = "#FFFFFF"; // nav_d1_1
+        v1.style.height = "70px"; // nav_d1_1
+        v1.style.borderRadius = "0px 30px 30px 0px"; // nav_d1_1
 
         u1.style.display = "block";
         u2.style.display = "block";
@@ -86,7 +93,11 @@ function nav_d1_2() {
         v2.style.backgroundColor = "#FFFFFF";
     } else {
         x1.style.display = "none";
-        v1.style.display = "flex";
+        
+        v1.style.display = "flex"; // nav_d1_1
+        v1.style.backgroundColor = "#232933"; // nav_d1_1
+        v1.style.height = "60px"; // nav_d1_1
+        v1.style.borderRadius = "30px 0px 0px 30px"; // nav_d1_1
 
         u1.style.display = "none";
         u2.style.display = "none";

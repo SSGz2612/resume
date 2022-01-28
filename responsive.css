@@ -21,9 +21,25 @@
     .nav_a { width: 10px; }
     .nav_b { width: 10px; }
 
-    .nav_d1_1_1 { padding: 0px 5px; }
-    .nav_d1_1_2 { padding: 0px 5px; }
-    .nav_d1_1_3 { padding: 0px 5px; }
+    .nav_d1_1_1 {
+        color: #FFFFFF;
+        padding: 0px 10px;
+        border-bottom: none;
+    }
+    .nav_d1_1_2 {
+        color: #FFFFFF;
+        padding: 0px 10px;
+        border-bottom: none;
+    }
+    .nav_d1_1_3 {
+        color: #FFFFFF;
+        padding: 0px 10px;
+        border-bottom: none;
+    }
+
+    .nav_d1_1_1:hover { border-bottom: none; }
+    .nav_d1_1_2:hover { border-bottom: none; }
+    .nav_d1_1_3:hover { border-bottom: none; }
 
     /*----
     HEADER
