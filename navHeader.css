@@ -316,16 +316,112 @@ header {
     height: 70px;
 }
 
-/*- HEADER_X1 -*/
+.header_c5 {
+    /*flex*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: auto;
+    height: 70px;
+}
+
+/*- HEADER_X1_1 -*/
 .header_c4_1 {
     line-height: 70px;
     background-color: #232933;
-    width: 350px;
+    width: 360px;
     height: 70px;
     border-radius: 5px;
 }
 
 .header_c4_1 a { color: #FFFFFF; }
+
+.header_c5_1 {
+    /*flex*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0px 20px;
+    width: 60px;
+    height: 60px;
+}
+
+.header_c5_2 {
+    /*flex*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0px 20px;
+    width: 60px;
+    height: 60px;
+}
+
+.header_c5_3 {
+    /*flex*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0px 20px;
+    width: 60px;
+    height: 60px;
+}
+
+.header_c5_4 {
+    /*flex*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0px 20px;
+    width: 60px;
+    height: 60px;
+}
+
+/*- HEADER_X1_1_1 -*/
+.header_c5_1_1 {
+    /*image*/
+    background-image: url("tools/GitHub_SS.svg");
+    background-repeat: no-repeat;
+    background-attachment: inherit;
+    background-size: 35px;
+
+    width: 35px;
+    height: 35px;
+}
+.header_c5_2_1 {
+    /*image*/
+    background-image: url("tools/behance_SS.svg");
+    background-repeat: no-repeat;
+    background-attachment: inherit;
+    background-size: 35px;
+
+    width: 35px;
+    height: 35px;
+}
+.header_c5_3_1 {
+    /*image*/
+    background-image: url("tools/facebook_SS.svg");
+    background-repeat: no-repeat;
+    background-attachment: inherit;
+    background-size: 35px;
+
+    width: 35px;
+    height: 35px;
+}
+.header_c5_4_1 {
+    /*image*/
+    background-image: url("tools/instagram_SS.svg");
+    background-repeat: no-repeat;
+    background-attachment: inherit;
+    background-size: 35px;
+    
+    width: 35px;
+    height: 35px;
+}
 
 /* -BLOCK- */
 .blq {

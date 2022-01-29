@@ -20,13 +20,24 @@ var u5 = document.getElementById( "nav_d1_2_1_5" );
 var u6 = document.getElementById( "nav_d1_2_1_6" );
 var u7 = document.getElementById( "nav_d1_2_1_7" );
 
-var engL = [ "About me", "Knowledges", "Projects" ];
-var ukrL = [ "Про мене", "Знання", "Проекти" ];
-var rusL = [ "Обо мне", "Знания", "Проекты" ];
+var engL = [
+    "About me", "Knowledges", "Projects",
+    "Hi there! I am", "Frontend Developer", "Download Resume"
+];
+
+var ukrL = [
+    "Про мене", "Знання", "Проекти",
+    "Привіт! я", "Фронтенд Розробник", "Завантажити Резюме"
+];
+
+var rusL = [
+    "Обо мне", "Знания", "Проекты",
+    "Всем привет! я", "Фронтенд Разработчик", "Скачать Резюме"
+];
 
 function changeL( lan ) {
     for( let x = 0; x < lan.length; x++ ) {
-        document.getElementById( "nav_d1_1_" + ( x + 1 ) ).innerHTML = lan[ x ];
+        document.getElementById( "text_" + ( x + 1 ) ).innerHTML = lan[ x ];
     }
 }
 
@@ -44,8 +55,7 @@ function nav_c1_2() {
     w1.style.display = "none";
     y1.style.display = "none";
     z1.style.display = "none";
-    
-    console.log( "Change to english language" );
+
     changeL( engL );
 }
 
@@ -55,8 +65,7 @@ function nav_c1_3() {
     w1.style.display = "none";
     y1.style.display = "none";
     z1.style.display = "none";
-    
-    console.log( "Change to ukrainian language" );
+
     changeL( ukrL );
 }
 
@@ -67,7 +76,6 @@ function nav_c1_4() {
     y1.style.display = "none";
     z1.style.display = "none";
     
-    console.log( "Change to russian language" );
     changeL( rusL );
 }
 
