@@ -1,97 +1,160 @@
 footer {
-    background-color: #000000;
-    color: #ffffff;
+    /*flex*/
+    display: flex;
+
     margin: auto;
     width: 1440px;
-    height: 200px;
-}
-
-.footer-b {
-    width: 100%;
-    height: 100px;
-}
-
-.footer-b1 {
-    width: 100%;
-    height: 20px;
-}
-
-.footer-b2 {
-    margin: auto;
-    width: 200px;
-    height: 60px;
-}
-
-.footer-b2-a {
-    /* background-image: url( "tools/behanceWhite.svg" ); */
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 30px;
-
-    width: 60px;
-    height: 60px;
-    float: left;
-}
-
-.footer-b2-a:hover {
-    background-size: 35px;
-}
-
-.footer-b2-b {
-    /* background-image: url( "tools/facebook1White.svg" ); */
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 30px;
-
-    width: 60px;
-    height: 60px;
-    margin: 0px 10px;
-    float: left;
-}
-
-.footer-b2-b:hover {
-    background-size: 35px;
-}
-
-.footer-b2-c {
-    /* background-image: url( "tools/instagram1White.svg" ); */
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 30px;
-
-    width: 60px;
-    height: 60px;
-    float: left;
-}
-
-.footer-b2-c:hover {
-    background-size: 35px;
-}
-
-.footer-c {
-    width: 100%;
     height: auto;
 }
 
-.footer-c1 {
-    text-align: center;
-    line-height: 60px;
+/*- FOOTER_X -*/
+.footer_a {
+    /*flex*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
+    color: #FFFFFF;
+    background-color: #232933;
     width: 100%;
+}
+
+/*- FOOTER_X1 -*/
+.footer_a1 {
+    /*flex*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: auto;
+    height: 70px;
+}
+
+.footer_a2 {
+    /*flex*/
+    display: flex;
+
+    height: 70px;
+}
+
+/*- FOOTER_X1_1 -*/
+.footer_a1_1 {
+    /*flex*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0px 20px;
+    width: 60px;
     height: 60px;
 }
 
-.footer-c2 {
-    text-align: center;
-    line-height: 30px;
+.footer_a1_2 {
+    /*flex*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-    width: 100%;
-    height: 30px;
+    margin: 0px 20px;
+    width: 60px;
+    height: 60px;
 }
 
-.footer-c3 {
-    text-align: center;
+.footer_a1_3 {
+    /*flex*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-    width: 100%;
-    height: 30px;
+    margin: 0px 20px;
+    width: 60px;
+    height: 60px;
+}
+
+.footer_a1_4 {
+    /*flex*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0px 20px;
+    width: 60px;
+    height: 60px;
+}
+
+/*- FOOTER_X1_1_1 -*/
+.footer_a1_1_1 {
+    /*image*/
+    background-image: url("tools/GitHubWhite.svg");
+    background-repeat: no-repeat;
+    background-attachment: inherit;
+    background-size: 35px;
+
+    width: 35px;
+    height: 35px;
+}
+
+.footer_a1_1_1:hover {
+    background-image: url("tools/GitHubWhite.svg");
+    background-size: 40px;
+
+    width: 40px;
+    height: 40px;
+}
+
+.footer_a1_2_1 {
+    /*image*/
+    background-image: url("tools/behanceWhite.svg");
+    background-repeat: no-repeat;
+    background-attachment: inherit;
+    background-size: 35px;
+
+    width: 35px;
+    height: 35px;
+}
+
+.footer_a1_2_1:hover {
+    background-image: url("tools/behance.svg");
+    background-size: 40px;
+
+    width: 40px;
+    height: 40px;
+}
+
+.footer_a1_3_1 {
+    /*image*/
+    background-image: url("tools/facebookWhite.svg");
+    background-repeat: no-repeat;
+    background-attachment: inherit;
+    background-size: 35px;
+
+    width: 35px;
+    height: 35px;
+}
+
+.footer_a1_3_1:hover {
+    background-image: url("tools/facebook.svg");
+    background-size: 40px;
+
+    width: 40px;
+    height: 40px;
+}
+
+.footer_a1_4_1 {
+    /*image*/
+    background-image: url("tools/instagramWhite.svg");
+    background-repeat: no-repeat;
+    background-attachment: inherit;
+    background-size: 35px;
+
+    width: 35px;
+    height: 35px;
+}
+
+.footer_a1_4_1:hover {
+    background-image: url("tools/instagram.svg");
+    background-size: 40px;
+
+    width: 40px;
+    height: 40px;
 }

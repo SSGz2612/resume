@@ -22,17 +22,20 @@ var u7 = document.getElementById( "nav_d1_2_1_7" );
 
 var engL = [
     "About me", "Knowledges", "Projects",
-    "Hi there! I am", "Frontend Developer", "Download Resume"
+    "Hi there! I am", "Frontend Developer", "Download Resume",
+    "I am a Junior Developer in Frontend with basic knowledge in Backend, actually in constant learning and ready for future projects. I also have interesting in moviles applications and games applications, I consider myself responsible, growth mind and patient."
 ];
 
 var ukrL = [
     "Про мене", "Знання", "Проекти",
-    "Привіт! я", "Фронтенд Розробник", "Завантажити Резюме"
+    "Привіт! я", "Фронтенд Розробник", "Завантажити Резюме",
+    "Я молодший розробник у Frontend з базовими знаннями в Backend, фактично постійно навчаюсь і готовий до майбутніх проектів. У мене також є цікаві додатки в кіно та ігри, я вважаю себе відповідальним, розумним зростанням і терплячим."
 ];
 
 var rusL = [
     "Обо мне", "Знания", "Проекты",
-    "Всем привет! я", "Фронтенд Разработчик", "Скачать Резюме"
+    "Всем привет! я", "Фронтенд Разработчик", "Скачать Резюме",
+    "Я младший разработчик в области Frontend с базовыми знаниями в области Backend, постоянно учусь и готов к будущим проектам. У меня также есть интересные приложения для кино и игр, я считаю себя ответственным, умом роста и терпеливым."
 ];
 
 function changeL( lan ) {
@@ -42,7 +45,6 @@ function changeL( lan ) {
 }
 
 function nav_c1_1() {
-    console.log( "click Gral boton!" ); // delete later
     x1.style.display = "none";
     w1.style.display = "flex";
     y1.style.display = "flex";
@@ -75,7 +77,7 @@ function nav_c1_4() {
     w1.style.display = "none";
     y1.style.display = "none";
     z1.style.display = "none";
-    
+
     changeL( rusL );
 }
 

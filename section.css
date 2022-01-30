@@ -1,91 +1,54 @@
-.section2 {
+section {
+    /*flex*/
+    display: flex;
+
     margin: auto;
+    width: 1440px;
     height: auto;
 }
 
-.section2-a1 {
-    width: 100%;
-    height: 180px;
-}
-
-.section2-a1-a {
+/*- SECTION_X -*/
+.section_a {
+    /*flex*/
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    flex-direction: column;
+}
+
+/*- SECTION_X1 -*/
+.section_a1 {
+    /*flex*/
+    display: flex;
+    justify-content: center;
+    /*image*/
+    background-image: url("tools/backgP2.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
 
     width: 100%;
-    height: 160px;
+    height: 100%;
 }
 
-.section2-a1-a1 {
-    width: 25%;
-    height: 140px;
+.section_a2 {
+    /*flex*/
+    display: flex;
+
+    color: #FFFFFF;
+    background-color: #232933;
+    padding: 20px;
+    width: auto;
 }
 
-.section2-a1-a1-a {
-    text-align: center;
-    line-height: 40px;
-    width: 100%;
-    height: 40px;
-}
-
-.section2-a1-a1-b {
-    /* background-image: url( "tools/JavaScript\ logo.svg" ); */
+/*- SECTION_X1_1 -*/
+.section_a1_1 {
+    display: flex;
+    /*image*/
+    background-image: url("tools/profile.jpeg");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 90px;
+    background-size: 200px;
 
-    width: 100%;
-    height: 100px;
-}
-
-.section2-a1-a2 {
-    width: 25%;
-    height: 140px;
-}
-
-.section2-a1-a2-a {
-    text-align: center;
-    line-height: 40px;
-    width: 100%;
-    height: 40px;
-}
-
-.section2-a1-a2-b {
-    /* background-image: url( "tools/HTML\ logo.svg" ); */
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 90px;
-
-    width: 100%;
-    height: 100px;
-}
-
-.section2-a1-a3 {
-    width: 25%;
-    height: 140px;
-}
-
-.section2-a1-a3-a {
-    text-align: center;
-    line-height: 40px;
-    width: 100%;
-    height: 40px;
-}
-
-.section2-a1-a3-b {
-    /* background-image: url( "tools/CSS\ logo.svg" ); */
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 90px;
-
-    width: 100%;
-    height: 100px;
-}
-
-/* SECTION 3 */
-
-.section3 {
-    box-shadow: 0px 0px 3px 1px #eeeeee;
-    margin: auto;
+    width: 200px;
+    height: 200px;
+    border: 5px solid #FFFFFF;
+    border-radius: 150px;
 }
