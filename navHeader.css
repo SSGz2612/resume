@@ -25,7 +25,7 @@
 
 * { font-family: SamsungSansRegular, sans-serif; }
 
-/*- NAV -*/
+/* NAV */
 nav {
     /*flex*/
     display: flex;
@@ -48,7 +48,7 @@ nav {
     margin-right: 50px;
 }
 
-/*- LV_X1 -*/
+/* NAV_X1 */
 .nav_c1 {
     display: flex;
     align-items: center;
@@ -64,7 +64,7 @@ nav {
     height: 70px;
 }
 
-/*- NAV_X1_1 -*/
+/* NAV_X1_1 */
 .nav_c1_1 {
     display: flex;
     justify-content: center;
@@ -74,9 +74,11 @@ nav {
 }
 
 .nav_c1_2 {
+    /*flex*/
     display: none;
     justify-content: center;
     align-items: center;
+
     background-color: #232933;
     width: 60px;
     height: 60px;
@@ -84,9 +86,11 @@ nav {
 }
 
 .nav_c1_3 {
+    /*flex*/
     display: none;
     justify-content: center;
     align-items: center;
+
     background-color: #232933;
     width: 60px;
     height: 60px;
@@ -113,9 +117,10 @@ a {
     /*flex*/
     display: flex;
     align-items: center;
-
+    /*text*/
     text-align: center;
     line-height: 40px;
+
     width: auto;
     height: 70px;
 }
@@ -131,11 +136,11 @@ a {
     border-radius: 0px 30px 30px 0px;
 }
 
-/*- NAV_X1_1_1 -*/
+/* NAV_X1_1_1 */
 .nav_c1_1_1 {
     display: flex;
     /*image*/
-    background-image: url( "tools/united-kingdom.png" );
+    background-image: url("tools/united-kingdom.png");
     background-repeat: no-repeat;
     background-attachment: inherit;
     background-size: 40px;
@@ -149,7 +154,7 @@ a {
 .nav_c1_2_1 {
     display: flex;
     /*image*/
-    background-image: url( "tools/united-kingdom.png" );
+    background-image: url("tools/united-kingdom.png");
     background-repeat: no-repeat;
     background-attachment: inherit;
     background-size: 40px;
@@ -161,7 +166,7 @@ a {
 .nav_c1_3_1 {
     display: flex;
     /*image*/
-    background-image: url( "tools/ukraine.png" );
+    background-image: url("tools/ukraine.png");
     background-repeat: no-repeat;
     background-attachment: inherit;
     background-size: 40px;
@@ -173,7 +178,7 @@ a {
 .nav_c1_4_1 {
     display: flex;
     /*image*/
-    background-image: url( "tools/russia.png" );
+    background-image: url("tools/russia.png");
     background-repeat: no-repeat;
     background-attachment: inherit;
     background-size: 40px;
@@ -217,7 +222,7 @@ a {
     height: 40px;
 }
 
-/*- NAV_X1_1_1_1 -*/
+/* NAV_X1_1_1_1 */
 .nav_d1_2_1_1 {
     width: 100%;
     height: 6px;
@@ -259,7 +264,7 @@ a {
     height: 6px;
 }
 
-/*- HEADER -*/
+/* HEADER */
 header {
     /*flex*/
     display: flex;
@@ -290,7 +295,7 @@ header {
     width: 50%;
 }
 
-/*- HEADER_X1 -*/
+/* HEADER_X1 */
 .header_c1 {
     line-height: 70px;
     width: auto;
@@ -298,9 +303,11 @@ header {
 }
 
 .header_c2 {
+    /*text*/
     font-family: SamsungSansBold, sans-serif;
     font-size: 25px;
     line-height: 70px;
+
     width: auto;
     height: 50px;
 }
@@ -338,7 +345,7 @@ header {
     height: 400px;
 }
 
-/*- HEADER_X1_1 -*/
+/* HEADER_X1_1 */
 .header_c4_1 {
     line-height: 70px;
     background-color: #232933;
@@ -393,7 +400,7 @@ header {
     height: 60px;
 }
 
-/*- HEADER_X1_1_1 -*/
+/* HEADER_X1_1_1 */
 .header_c5_1_1 {
     /*image*/
     background-image: url("tools/GitHub_SS.svg");
@@ -470,7 +477,7 @@ header {
     height: 40px;
 }
 
-/* -BLOCK- */
+/* BLOCK */
 .blq {
     width: 100%;
     height: 20px;

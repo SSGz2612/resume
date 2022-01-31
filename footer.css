@@ -7,23 +7,23 @@ footer {
     height: auto;
 }
 
-/*- FOOTER_X -*/
+/* FOOTER_X */
 .footer_a {
     /*flex*/
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    /*text*/
     color: #FFFFFF;
+    
     background-color: #232933;
     width: 100%;
 }
 
-/*- FOOTER_X1 -*/
+/* FOOTER_X1 */
 .footer_a1 {
     /*flex*/
     display: flex;
-    justify-content: center;
     align-items: center;
 
     width: auto;
@@ -33,73 +33,75 @@ footer {
 .footer_a2 {
     /*flex*/
     display: flex;
+    /*text*/
+    font-size: 13px;
 
     height: 70px;
 }
 
-/*- FOOTER_X1_1 -*/
+/* FOOTER_X1_1 */
 .footer_a1_1 {
     /*flex*/
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
 
     margin: 0px 20px;
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
 }
 
 .footer_a1_2 {
     /*flex*/
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
 
     margin: 0px 20px;
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
 }
 
 .footer_a1_3 {
     /*flex*/
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
 
     margin: 0px 20px;
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
 }
 
 .footer_a1_4 {
     /*flex*/
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
 
     margin: 0px 20px;
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
 }
 
-/*- FOOTER_X1_1_1 -*/
+/* FOOTER_X1_1_1 */
 .footer_a1_1_1 {
     /*image*/
     background-image: url("tools/GitHubWhite.svg");
     background-repeat: no-repeat;
     background-attachment: inherit;
-    background-size: 35px;
+    background-size: 25px;
 
-    width: 35px;
-    height: 35px;
+    width: 25px;
+    height: 25px;
 }
 
 .footer_a1_1_1:hover {
     background-image: url("tools/GitHubWhite.svg");
-    background-size: 40px;
+    background-size: 30px;
 
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
 }
 
 .footer_a1_2_1 {
@@ -107,18 +109,18 @@ footer {
     background-image: url("tools/behanceWhite.svg");
     background-repeat: no-repeat;
     background-attachment: inherit;
-    background-size: 35px;
+    background-size: 25px;
 
-    width: 35px;
-    height: 35px;
+    width: 25px;
+    height: 25px;
 }
 
 .footer_a1_2_1:hover {
     background-image: url("tools/behance.svg");
-    background-size: 40px;
+    background-size: 30px;
 
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
 }
 
 .footer_a1_3_1 {
@@ -126,18 +128,18 @@ footer {
     background-image: url("tools/facebookWhite.svg");
     background-repeat: no-repeat;
     background-attachment: inherit;
-    background-size: 35px;
+    background-size: 25px;
 
-    width: 35px;
-    height: 35px;
+    width: 25px;
+    height: 25px;
 }
 
 .footer_a1_3_1:hover {
     background-image: url("tools/facebook.svg");
-    background-size: 40px;
+    background-size: 30px;
 
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
 }
 
 .footer_a1_4_1 {
@@ -145,16 +147,16 @@ footer {
     background-image: url("tools/instagramWhite.svg");
     background-repeat: no-repeat;
     background-attachment: inherit;
-    background-size: 35px;
+    background-size: 25px;
 
-    width: 35px;
-    height: 35px;
+    width: 25px;
+    height: 25px;
 }
 
 .footer_a1_4_1:hover {
     background-image: url("tools/instagram.svg");
-    background-size: 40px;
+    background-size: 30px;
 
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
 }
