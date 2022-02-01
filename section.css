@@ -160,26 +160,29 @@ section {
 .section_b2_5 {
     /*flex*/
     display: flex;
-    justify-content: center;
-    align-items: center;
-    /*text*/
-    color: #FFFFFF;
-
-    margin: 20px 20px 0px 20px;
-    width: auto;
-    height: 70px;
-    border: 1px solid #FFFFFF;
-    border-radius: 5px;
-}
-
-.section_b2_6 {
-    /*flex*/
-    display: flex;
     /*text*/
     color: #FFFFFF;
 
     margin: 20px 20px 20px 20px;
     width: auto;
+    height: 70px;
+}
+
+.section_b2_6 {
+    /*flex*/
+    display: none;
+
+    margin: 0px 20px;
+    width: auto ;
+    height: 70px;
+}
+
+.section_b2_7 {
+    /*flex*/
+    display: none;
+
+    margin: 0px 20px;
+    width: auto ;
     height: 70px;
 }
 
@@ -242,7 +245,7 @@ section {
     /*flex*/
     display: flex;
     /*image*/
-    background-image: url("tools/White_CSS.svg");
+    background-image: url("tools/White_CSS3.svg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 70px;
@@ -265,7 +268,7 @@ section {
     border-radius: 0px 5px 5px 0px;
 }
 
-.section_b2_6_1 {
+.section_b2_5_1 {
     /*flex*/
     display: flex;
     /*image*/
@@ -280,7 +283,7 @@ section {
     border-radius: 5px 0px 0px 5px;
 }
 
-.section_b2_6_2 {
+.section_b2_5_2 {
     /*flex*/
     display: flex;
     align-items: center;
@@ -290,4 +293,58 @@ section {
     width: 70%;
     height: 70px;
     border-radius: 0px 5px 5px 0px;
+}
+
+.section_b2_6_1 {
+    /*flex*/
+    display: flex;
+    /*image*/
+    background-image: url("tools/React.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70px;
+
+    background-color: #FFFFFF;
+    width: 30%;
+    height: 70px;
+}
+
+.section_b2_6_2 {
+    /*flex*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #FFFFFF;
+    width: 70%;
+    height: 70px;
+}
+
+.section_b2_7_1 {
+    /*flex*/
+    display: flex;
+    /*image*/
+    background-image: url("tools/JQuery.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70px;
+
+    background-color: #FFFFFF;
+    width: 30%;
+    height: 70px;
+    border-top: 1px solid #232933;
+    border-radius: 0px 0px 0px 5px;
+}
+
+.section_b2_7_2 {
+    /*flex*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #FFFFFF;
+    width: 70%;
+    height: 70px;
+    border-top: 1px solid #232933;
+    border-radius: 0px 0px 5px 0px;
 }
