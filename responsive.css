@@ -7,6 +7,34 @@
     .nav_c { margin-left: 10px; }
     .nav_d { margin-right: 10px; }
 
+    /*BLOCK*/
+    .blq { display: none; }
+}
+
+@media only screen and ( min-width: 769px ) {
+    /* SECTION */
+    .section_a { flex-direction: row; }
+
+    .section_a1 {
+        /*flex*/
+        align-items: center;
+
+        background-image: url("tools/backgP3.svg");
+    }
+
+    .section_a1_1 {
+        margin: 50px;
+    }
+
+    .section_a2 { padding: 50px; }
+    .section_a2_1 { justify-content: flex-start; }
+    .section_a2_2 { padding: 0px; }
+}
+
+@media only screen and ( max-width: 991px ) {
+    /* NAV */
+    .nav_d1_1 { display: none; }
+
     /* HEADER */
     .header_c {
         width: 100%;
@@ -16,51 +44,10 @@
     .header_d { display: none; }
 }
 
-@media only screen and ( min-width: 769px ) {
-    /* SECTION */
-    .section_a { flex-direction: row; }
-
-    .section_a1 {
-        background-image: none;
-
-        background-color: #232933;
-        align-items: center;
-        padding: 0px 50px;
-    }
-
-    .section_a2 {
-        padding: 50px;
-    }
-}
-
-@media only screen and ( max-width: 991px ) {
-    /* NAV */
-    .nav_d1_1 { display: none; }
-
-    .nav_d1_1_1 {
-        color: #FFFFFF;
-        padding: 0px 10px 0px 20px;
-        border-bottom: none;
-    }
-    .nav_d1_1_2 {
-        color: #FFFFFF;
-        padding: 0px 10px;
-        border-bottom: none;
-    }
-    .nav_d1_1_3 {
-        color: #FFFFFF;
-        padding: 0px 0px 0px 10px;
-        border-bottom: none;
-    }
-
-    .nav_d1_1_1:hover { border-bottom: none; }
-    .nav_d1_1_2:hover { border-bottom: none; }
-    .nav_d1_1_3:hover { border-bottom: none; }
-}
-
 @media only screen and ( min-width: 992px ) {
     /* NAV */
     .nav_d1_2 { display: none; }
+    .nav_e1 { display: none; }
 }
 
 @media only screen and ( min-width: 1200px ) {}
@@ -79,4 +66,7 @@
     footer { width: 100%; }
 }
 
-@media only screen and ( min-width: 1440px ) {}
+@media only screen and ( min-width: 1440px ) {
+    /*BLOCK*/
+    .blq { width: 1440px; }
+}

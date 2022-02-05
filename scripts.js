@@ -1,5 +1,4 @@
 var s1 = document.getElementById("nav_c1");
-var s2 = document.getElementById("nav_d1");
 
 var x1 = document.getElementById("nav_c1_1");
 var x2 = document.getElementById("nav_c1_1_1");
@@ -20,6 +19,8 @@ var u5 = document.getElementById("nav_d1_2_1_5");
 var u6 = document.getElementById("nav_d1_2_1_6");
 var u7 = document.getElementById("nav_d1_2_1_7");
 
+var r1 = document.getElementById("nav_e");
+
 var javS1 = document.getElementById("section_b2_1_1");
 var javS2 = document.getElementById("section_b2_1_2");
 var jav1 = document.getElementById("section_b2_6");
@@ -30,7 +31,7 @@ var engL = [
     "Hi there! I am", "Frontend Developer", "Download Resume", "About me",
     "I am a Junior Developer in Frontend with basic knowledge in Backend, actually in constant learning and ready for future projects. I also have interesting in moviles applications and games applications, I consider myself responsible, growth mind and patient.",
     "Sergio D. Gimenez", "Sergio D. Gimenez | © 2022",
-    "Knowledges"
+    "Knowledges", "About me", "Knowledges", "Projects"
 ];
 
 var ukrL = [
@@ -38,7 +39,7 @@ var ukrL = [
     "Привіт! я", "Фронтенд Розробник", "Завантажити Резюме", "Про мене",
     "Я Junior Developer Frontend з базовими знаннями в Backend, фактично постійно навчаюсь і готовий до майбутніх проектів. Я також ціквалюсь додатками в кіно та ігра, я вважаю себе відповідальним, здатним до розвитку і стресостійким.",
     "Серхіо Д. Хіменез", "Серхіо Д. Хіменез | © 2022",
-    "Знання"
+    "Знання", "Про мене", "Знання", "Проекти"
 ];
 
 var rusL = [
@@ -46,7 +47,7 @@ var rusL = [
     "Всем привет! я", "Фронтенд Разработчик", "Скачать Резюме", "Обо мне",
     "Я Junior Developer Frontend с базовыми знаниями в области Backend, постоянно учусь и готов к будущим проектам. Я так же интересуюсь приложениями для кино и игр, я считаю себя ответственным, способным к развитию и стрессоустойчевым.",
     "Серхио Д. Хименез", "Серхио Д. Хименез | © 2022",
-    "Знания"
+    "Знания", "Обо мне", "Знания", "Проекты"
 ];
 
 function changeL( lan ) {
@@ -93,13 +94,8 @@ function nav_c1_4() {
 }
 
 function nav_d1_2() {
-    if( x1.style.display == "none" ) {
-        x1.style.display = "flex";
-        
-        v1.style.display = "none"; // nav_d1_1
-        v1.style.backgroundColor = "#FFFFFF"; // nav_d1_1
-        v1.style.height = "70px"; // nav_d1_1
-        v1.style.borderRadius = "0px 30px 30px 0px"; // nav_d1_1
+    if( r1.style.display == "flex" ) {
+        r1.style.display = "none";
 
         u1.style.display = "block";
         u2.style.display = "block";
@@ -110,15 +106,9 @@ function nav_d1_2() {
         u7.style.display = "block";
 
         t1.style.height = "40px";
-
-        v2.style.backgroundColor = "#FFFFFF";
+        t1.style.backgroundColor = "#FFFFFF";
     } else {
-        x1.style.display = "none";
-        
-        v1.style.display = "flex"; // nav_d1_1
-        v1.style.backgroundColor = "#232933"; // nav_d1_1
-        v1.style.height = "60px"; // nav_d1_1
-        v1.style.borderRadius = "30px 0px 0px 30px"; // nav_d1_1
+        r1.style.display = "flex";
 
         u1.style.display = "none";
         u2.style.display = "none";
@@ -129,10 +119,8 @@ function nav_d1_2() {
         u7.style.display = "none";
 
         t1.style.height = "30px";
-        t1.style.backgroundColor = "#FFFFFF";
+        t1.style.backgroundColor = "#232933";
         t1.style.borderRadius = "15px";
-
-        v2.style.backgroundColor = "#232933";
     }
 }
 
