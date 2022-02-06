@@ -35,7 +35,7 @@ footer {
     display: flex;
     /*text*/
     font-size: 13px;
-
+    /**/
     height: 70px;
 }
 
@@ -44,8 +44,8 @@ footer {
     /*flex*/
     display: flex;
     justify-content: center;
-    align-items: flex-end;
-
+    align-items: center;
+    /**/
     margin: 0px 20px;
     width: 40px;
     height: 40px;
@@ -55,8 +55,8 @@ footer {
     /*flex*/
     display: flex;
     justify-content: center;
-    align-items: flex-end;
-
+    align-items: center;
+    /**/
     margin: 0px 20px;
     width: 40px;
     height: 40px;
@@ -66,8 +66,8 @@ footer {
     /*flex*/
     display: flex;
     justify-content: center;
-    align-items: flex-end;
-
+    align-items: center;
+    /**/
     margin: 0px 20px;
     width: 40px;
     height: 40px;
@@ -77,8 +77,8 @@ footer {
     /*flex*/
     display: flex;
     justify-content: center;
-    align-items: flex-end;
-
+    align-items: center;
+    /**/
     margin: 0px 20px;
     width: 40px;
     height: 40px;
@@ -91,7 +91,7 @@ footer {
     background-repeat: no-repeat;
     background-attachment: inherit;
     background-size: 25px;
-
+    /**/
     width: 25px;
     height: 25px;
 }
@@ -99,7 +99,7 @@ footer {
 .footer_a1_1_1:hover {
     background-image: url("tools/GitHubWhite.svg");
     background-size: 30px;
-
+    /**/
     width: 30px;
     height: 30px;
 }
@@ -110,7 +110,7 @@ footer {
     background-repeat: no-repeat;
     background-attachment: inherit;
     background-size: 25px;
-
+    /**/
     width: 25px;
     height: 25px;
 }
@@ -118,7 +118,7 @@ footer {
 .footer_a1_2_1:hover {
     background-image: url("tools/behance.svg");
     background-size: 30px;
-
+    /**/
     width: 30px;
     height: 30px;
 }
@@ -129,7 +129,7 @@ footer {
     background-repeat: no-repeat;
     background-attachment: inherit;
     background-size: 25px;
-
+    /**/
     width: 25px;
     height: 25px;
 }
@@ -137,7 +137,7 @@ footer {
 .footer_a1_3_1:hover {
     background-image: url("tools/facebook.svg");
     background-size: 30px;
-
+    /**/
     width: 30px;
     height: 30px;
 }
@@ -148,7 +148,7 @@ footer {
     background-repeat: no-repeat;
     background-attachment: inherit;
     background-size: 25px;
-
+    /**/
     width: 25px;
     height: 25px;
 }

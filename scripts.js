@@ -1,3 +1,4 @@
+var r1 = document.getElementById("nav_e");
 var s1 = document.getElementById("nav_c1");
 
 var x1 = document.getElementById("nav_c1_1");
@@ -18,13 +19,6 @@ var u4 = document.getElementById("nav_d1_2_1_4");
 var u5 = document.getElementById("nav_d1_2_1_5");
 var u6 = document.getElementById("nav_d1_2_1_6");
 var u7 = document.getElementById("nav_d1_2_1_7");
-
-var r1 = document.getElementById("nav_e");
-
-var javS1 = document.getElementById("section_b2_1_1");
-var javS2 = document.getElementById("section_b2_1_2");
-var jav1 = document.getElementById("section_b2_6");
-var jav2 = document.getElementById("section_b2_7");
 
 var engL = [
     "About me", "Knowledges", "Projects",
@@ -121,21 +115,5 @@ function nav_d1_2() {
         t1.style.height = "30px";
         t1.style.backgroundColor = "#232933";
         t1.style.borderRadius = "15px";
-    }
-}
-
-function section_b2_1() {
-    if( jav1.style.display == "flex" ) {
-        jav1.style.display = "none";
-        jav2.style.display = "none";
-
-        javS1.style.borderRadius = "5px 0px 0px 5px";
-        javS2.style.borderRadius = "0px 5px 5px 0px";
-    } else {
-        jav1.style.display = "flex";
-        jav2.style.display = "flex";
-
-        javS1.style.borderRadius = "5px 0px 0px 0px";
-        javS2.style.borderRadius = "0px 5px 0px 0px";
     }
 }

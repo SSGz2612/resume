@@ -382,6 +382,7 @@ header {
     /*flex*/
     display: flex;
     justify-content: center;
+    /**/
     width: auto;
     height: 70px;
 }
@@ -391,7 +392,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-
+    /**/
     width: auto;
     height: 70px;
 }
@@ -409,16 +410,16 @@ header {
 
 /* HEADER_X1_1 */
 .header_c4_1 {
-    line-height: 70px;
+    line-height: 60px;
     background-color: #232933;
-    width: 360px;
-    height: 70px;
-    border-radius: 5px;
+    width: 300px;
+    height: 60px;
+    border-radius: 35px;
 }
 
 .header_c4_1 a {
     color: #FFFFFF;
-    padding: 20px 100px;
+    padding: 20px 75px;
 }
 
 .header_c5_1 {
@@ -426,8 +427,8 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-
-    margin: 0px 20px;
+    /**/
+    margin: 0px 10px;
     width: 60px;
     height: 60px;
 }
@@ -437,8 +438,8 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-
-    margin: 0px 20px;
+    /**/
+    margin: 0px 10px;
     width: 60px;
     height: 60px;
 }
@@ -448,8 +449,8 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-
-    margin: 0px 20px;
+    /**/
+    margin: 0px 10px;
     width: 60px;
     height: 60px;
 }
@@ -459,8 +460,8 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-
-    margin: 0px 20px;
+    /**/
+    margin: 0px 10px;
     width: 60px;
     height: 60px;
 }
@@ -471,18 +472,19 @@ header {
     background-image: url("tools/GitHub_SS.svg");
     background-repeat: no-repeat;
     background-attachment: inherit;
-    background-size: 35px;
-
-    width: 35px;
-    height: 35px;
+    background-size: 27px;
+    /**/
+    width: 27px;
+    height: 27px;
 }
 
 .header_c5_1_1:hover {
+    /*image*/
     background-image: url("tools/GitHub.svg");
-    background-size: 40px;
-
-    width: 40px;
-    height: 40px;
+    background-size: 35px;
+    /**/
+    width: 35px;
+    height: 35px;
 }
 
 .header_c5_2_1 {
@@ -490,18 +492,19 @@ header {
     background-image: url("tools/behance_SS.svg");
     background-repeat: no-repeat;
     background-attachment: inherit;
-    background-size: 35px;
-
-    width: 35px;
-    height: 35px;
+    background-size: 27px;
+    /**/
+    width: 27px;
+    height: 27px;
 }
 
 .header_c5_2_1:hover {
+    /*image*/
     background-image: url("tools/behance.svg");
-    background-size: 40px;
-
-    width: 40px;
-    height: 40px;
+    background-size: 35px;
+    /**/
+    width: 35px;
+    height: 35px;
 }
 
 .header_c5_3_1 {
@@ -509,18 +512,19 @@ header {
     background-image: url("tools/facebook_SS.svg");
     background-repeat: no-repeat;
     background-attachment: inherit;
-    background-size: 35px;
-
-    width: 35px;
-    height: 35px;
+    background-size: 27px;
+    /**/
+    width: 27px;
+    height: 27px;
 }
 
 .header_c5_3_1:hover {
+    /*image*/
     background-image: url("tools/facebook.svg");
-    background-size: 40px;
-
-    width: 40px;
-    height: 40px;
+    background-size: 35px;
+    /**/
+    width: 35px;
+    height: 35px;
 }
 
 .header_c5_4_1 {
@@ -528,18 +532,19 @@ header {
     background-image: url("tools/instagram_SS.svg");
     background-repeat: no-repeat;
     background-attachment: inherit;
-    background-size: 35px;
-
-    width: 35px;
-    height: 35px;
+    background-size: 27px;
+    /**/
+    width: 27px;
+    height: 27px;
 }
 
 .header_c5_4_1:hover {
+    /*image*/
     background-image: url("tools/instagram.svg");
-    background-size: 40px;
-
-    width: 40px;
-    height: 40px;
+    background-size: 35px;
+    /**/
+    width: 35px;
+    height: 35px;
 }
 
 /* BLOCK */
