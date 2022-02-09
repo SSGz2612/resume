@@ -408,7 +408,7 @@ section {
     justify-content: center;
     /*text*/
     color: #FFFFFF;
-
+    /**/
     width: 90%;
     height: 30px;
     border-top: 1px solid #E31E24;
@@ -419,8 +419,6 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
-    /*text*/
-    color: #FFFFFF;
     /**/
     background-color: #232933;
     width: 100%;
@@ -443,6 +441,8 @@ section {
 /*************
 SECTION_X1_1_1
 *************/
+.section_c2_1_1_1 { color: #FFFFFF; }
+
 .section_c2_1_2_1 {
     /*flex*/
     display: flex;
