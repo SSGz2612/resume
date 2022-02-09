@@ -22,6 +22,14 @@ section {
     width: 100%;
 }
 
+.section_c {
+    /*flex*/
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+}
+
 /* SECTION_X1 */
 .section_a1 {
     /*flex*/
@@ -70,6 +78,31 @@ section {
     justify-content: space-around;
 
     background-color: #232933;
+    width: 100%;
+    height: auto;
+}
+
+.section_c1 {
+    /*flex*/
+    display: flex;
+    justify-content: center;
+    /*text*/
+    font-family: SamsungSansBold, sans-serif;
+    font-size: 20px;
+    line-height: 70px;
+    color: #232933;
+    /**/
+    width: 100%;
+    height: 70px;
+}
+
+.section_c2 {
+    /*flex*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /**/
     width: 100%;
     height: auto;
 }
@@ -193,6 +226,17 @@ section {
     height: 120px;
     border: 1px solid #E31E24;
     border-radius: 5px;
+}
+
+.section_c2_1 {
+    /*flex*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /**/
+    margin: 20px;
+    width: 300px;
+    height: 140px;
 }
 
 /* SECTION_X1_1_1 */
@@ -368,4 +412,46 @@ section {
     width: 90%;
     height: 30px;
     border-top: 1px solid #E31E24;
+}
+
+.section_c2_1_1 {
+    /*flex*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*text*/
+    color: #FFFFFF;
+    /**/
+    background-color: #232933;
+    width: 100%;
+    height: 50%;
+    border: 1px solid #232933;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.section_c2_1_2 {
+    /*flex*/
+    display: flex;
+    justify-content: center;
+    /**/
+    width: 100%;
+    height: 50%;
+    border: 1px solid #232933;
+    border-radius: 0px 0px 5px 5px;
+}
+
+/*************
+SECTION_X1_1_1
+*************/
+.section_c2_1_2_1 {
+    /*flex*/
+    display: flex;
+    /*image*/
+    background-image: url("tools/SS_React.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60px;
+    /**/
+    width: 60px;
+    height: 70px;
 }

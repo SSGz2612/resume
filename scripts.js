@@ -25,7 +25,7 @@ var engL = [
     "Hi there! I am", "Frontend Developer", "Download Resume", "About me",
     "I am a Junior Developer in Frontend with basic knowledge in Backend, actually in constant learning and ready for future projects. I also have interesting in moviles applications and games applications, I consider myself responsible, growth mind and patient.",
     "Sergio D. Gimenez", "Sergio D. Gimenez | © 2022",
-    "Knowledges", "About me", "Knowledges", "Projects"
+    "Knowledges", "About me", "Knowledges", "Projects", "Projects", "Exchange Currency"
 ];
 
 var ukrL = [
@@ -33,7 +33,7 @@ var ukrL = [
     "Привіт! я", "Фронтенд Розробник", "Завантажити Резюме", "Про мене",
     "Я Junior Developer Frontend з базовими знаннями в Backend, фактично постійно навчаюсь і готовий до майбутніх проектів. Я також ціквалюсь додатками в кіно та ігра, я вважаю себе відповідальним, здатним до розвитку і стресостійким.",
     "Серхіо Д. Хіменез", "Серхіо Д. Хіменез | © 2022",
-    "Знання", "Про мене", "Знання", "Проекти"
+    "Знання", "Про мене", "Знання", "Проекти", "Проекти", "Обміняти Валюту"
 ];
 
 var rusL = [
@@ -41,7 +41,7 @@ var rusL = [
     "Всем привет! я", "Фронтенд Разработчик", "Скачать Резюме", "Обо мне",
     "Я Junior Developer Frontend с базовыми знаниями в области Backend, постоянно учусь и готов к будущим проектам. Я так же интересуюсь приложениями для кино и игр, я считаю себя ответственным, способным к развитию и стрессоустойчевым.",
     "Серхио Д. Хименез", "Серхио Д. Хименез | © 2022",
-    "Знания", "Обо мне", "Знания", "Проекты"
+    "Знания", "Обо мне", "Знания", "Проекты", "Проекты", "Обмен Валют"
 ];
 
 function changeL( lan ) {
