@@ -455,3 +455,16 @@ SECTION_X1_1_1
     width: 60px;
     height: 70px;
 }
+
+.section_c2_1_2_2 {
+    /*flex*/
+    display: flex;
+    /*image*/
+    background-image: url("tools/SS_Git.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60px;
+    /**/
+    width: 60px;
+    height: 70px;
+}

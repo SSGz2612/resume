@@ -99,7 +99,7 @@ function nav_d1_2() {
         u6.style.display = "block";
         u7.style.display = "block";
 
-        t1.style.height = "40px";
+        t1.style.height = "30px";
         t1.style.backgroundColor = "#FFFFFF";
     } else {
         r1.style.display = "flex";
@@ -112,7 +112,7 @@ function nav_d1_2() {
         u6.style.display = "none";
         u7.style.display = "none";
 
-        t1.style.height = "30px";
+        t1.style.height = "25px";
         t1.style.backgroundColor = "#232933";
         t1.style.borderRadius = "15px";
     }
