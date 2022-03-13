@@ -11,8 +11,8 @@
     /* SECTION */
     .section_a {
         flex-direction: row;
-        border-top: 2px solid #232933;
-        border-bottom: 2px solid #232933;
+        border-radius: 10px;
+        border: 2px solid #232933;
     }
 
     .section_a1 {
@@ -76,26 +76,38 @@
     }
     .section_b2_4_2 { color: #232933; }
 
-    /*jquery*/
+    /*PHP*/
     .section_b2_5 { border: none; }
     .section_b2_5_1 {
-        background-image: url("tools/JQuery.svg");
+        background-image: url("tools/PHP.svg");
         background-color: #FFFFFF;
-        border: 2px solid #232933;
+        border: 2px solid #6383BB;
     }
     .section_b2_5_2 {
         color: #232933;
-        border-top: 1px solid #232933;
+        border-top: 1px solid #6383BB;
+    }
+
+    /*SQL*/
+    .section_b2_6 { border: none; }
+    .section_b2_6_1 {
+        background-image: url("tools/SQL.svg");
+        background-color: #FFFFFF;
+        border: 2px solid #AAAAAA;
+    }
+    .section_b2_6_2 {
+        color: #232933;
+        border-top: 1px solid #AAAAAA;
     }
 
     /*git*/
-    .section_b2_6 { border: none; }
-    .section_b2_6_1 {
+    .section_b2_7 { border: none; }
+    .section_b2_7_1 {
         background-image: url("tools/Git.svg");
         background-color: #FFFFFF;
         border: 2px solid #E31E24;
     }
-    .section_b2_6_2 { color: #232933; }
+    .section_b2_7_2 { color: #232933; }
 }
 
 @media only screen and ( max-width: 991px ) {
