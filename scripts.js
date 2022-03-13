@@ -28,6 +28,15 @@ var engL = [
     "Knowledges", "About me", "Knowledges", "Projects", "Projects", "Exchange Currency"
 ];
 
+// soon will add the spanish language
+var espL = [
+    "Sobre mi", "Conocimientos", "Proyectos",
+    "Hola!", "Desarrollador Frontend", "Descargar Curriculum", "Sobre mi",
+    "Soy desarrollador Frontend con conocimientos basicos en el Backend, en constante aprendizaje y listo para cualquier proyecto. Tengo interes en el desarrollo movil y aplicaciones de juegos, Como persona me considero responsable, con crecimiento tanto personal como profesional.",
+    "Sergio D. Gimenez", "Sergio D. Gimenez | © 2022",
+    "Conocimientos", "Sobre mi", "Conocimientos", "Proyectos", "Proyectos", "Cambio de Divisas"
+];
+
 var ukrL = [
     "Про мене", "Знання", "Проекти",
     "Привіт! я", "Фронтенд Розробник", "Завантажити Резюме", "Про мене",
