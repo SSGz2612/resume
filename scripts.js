@@ -3,9 +3,10 @@ var s1 = document.getElementById("nav_c1");
 
 var x1 = document.getElementById("nav_c1_1");
 var x2 = document.getElementById("nav_c1_1_1");
-var w1 = document.getElementById("nav_c1_2");
-var y1 = document.getElementById("nav_c1_3");
-var z1 = document.getElementById("nav_c1_4");
+var boxENG = document.getElementById("boxENG");
+var boxSPA = document.getElementById("boxSPA");
+var boxUCR = document.getElementById("boxUCR");
+var boxRUS = document.getElementById("boxRUS");
 
 var v1 = document.getElementById( "nav_d1_1");
 var v2 = document.getElementById( "nav_d1_2");
@@ -28,7 +29,6 @@ var engL = [
     "Knowledges", "About me", "Knowledges", "Projects", "Projects", "Exchange Currency"
 ];
 
-// soon will add the spanish language
 var espL = [
     "Sobre mi", "Conocimientos", "Proyectos",
     "Hola!", "Desarrollador Frontend", "Descargar Curriculum", "Sobre mi",
@@ -59,39 +59,54 @@ function changeL( lan ) {
     }
 }
 
-function nav_c1_1() {
+function defaultLanguage() {
     x1.style.display = "none";
-    w1.style.display = "flex";
-    y1.style.display = "flex";
-    z1.style.display = "flex";
+    boxENG.style.display = "flex";
+    boxSPA.style.display = "flex";
+    boxUCR.style.display = "flex";
+    boxRUS.style.display = "flex";
 }
 
-function nav_c1_2() {
+function englishLanguage() {
     x1.style.display = "flex";
-    x2.style.backgroundImage = "url( 'tools/united-kingdom.png' )";
-    w1.style.display = "none";
-    y1.style.display = "none";
-    z1.style.display = "none";
+    x2.style.backgroundImage = "url('tools/united-kingdom.png')";
+    boxENG.style.display = "none";
+    boxSPA.style.display = "none";
+    boxUCR.style.display = "none";
+    boxRUS.style.display = "none";
 
     changeL( engL );
 }
 
-function nav_c1_3() {
+function spainLanguage() {
     x1.style.display = "flex";
-    x2.style.backgroundImage = "url( 'tools/ukraine.png' )";
-    w1.style.display = "none";
-    y1.style.display = "none";
-    z1.style.display = "none";
+    x2.style.backgroundImage = "url('tools/spain.png')";
+    boxENG.style.display = "none";
+    boxSPA.style.display = "none";
+    boxUCR.style.display = "none";
+    boxRUS.style.display = "none";
+
+    changeL( espL );
+}
+
+function ukraineLanguage() {
+    x1.style.display = "flex";
+    x2.style.backgroundImage = "url('tools/ukraine.png')";
+    boxENG.style.display = "none";
+    boxSPA.style.display = "none";
+    boxUCR.style.display = "none";
+    boxRUS.style.display = "none";
 
     changeL( ukrL );
 }
 
-function nav_c1_4() {
+function russianLanguage() {
     x1.style.display = "flex";
-    x2.style.backgroundImage = "url( 'tools/russia.png' )";
-    w1.style.display = "none";
-    y1.style.display = "none";
-    z1.style.display = "none";
+    x2.style.backgroundImage = "url('tools/russia.png')";
+    boxENG.style.display = "none";
+    boxSPA.style.display = "none";
+    boxUCR.style.display = "none";
+    boxRUS.style.display = "none";
 
     changeL( rusL );
 }

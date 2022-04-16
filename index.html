@@ -21,20 +21,41 @@
     <nav>
         <div class="nav_c">
             <div class="nav_c1" id="nav_c1">
-                <div class="nav_c1_1" id="nav_c1_1" onclick="nav_c1_1()">
-                    <div class="nav_c1_1_1" id="nav_c1_1_1"></div>
+                <div
+                class="gralSetLanguages"
+                id="nav_c1_1"
+                onclick="defaultLanguage()"
+                >
+                    <div class="gralSetFlags defaultFlag" id="nav_c1_1_1"></div>
                 </div>
                 
-                <div class="nav_c1_2" id="nav_c1_2" onclick="nav_c1_2()">
-                    <div class="nav_c1_2_1" id="nav_c1_2_1"></div>
+                <div
+                class="gralSetLanguages boxENG"
+                id="boxENG"
+                onclick="englishLanguage()"
+                >
+                    <div class="gralSetFlags englandFlag"></div>
                 </div>
                 
-                <div class="nav_c1_3" id="nav_c1_3" onclick="nav_c1_3()">
-                    <div class="nav_c1_3_1" id="nav_c1_3_1"></div>
+                <div
+                class="gralSetLanguages boxSPA"
+                id="boxSPA"
+                onclick="spainLanguage()">
+                    <div class="gralSetFlags spainFlag"></div>
                 </div>
                 
-                <div class="nav_c1_4" id="nav_c1_4" onclick="nav_c1_4()">
-                    <div class="nav_c1_4_1" id="nav_c1_4_1"></div>
+                <div
+                class="gralSetLanguages boxUCR"
+                id="boxUCR"
+                onclick="ukraineLanguage()">
+                    <div class="gralSetFlags ukraineFlag"></div>
+                </div>
+
+                <div
+                class="gralSetLanguages boxRUS"
+                id="boxRUS"
+                onclick="russianLanguage()">
+                    <div class="gralSetFlags russiaFlag"></div>
                 </div>
             </div>
         </div>
@@ -43,9 +64,9 @@
             <div class="nav_d1">
                 <!--web menu-->
                 <div class="nav_d1_1">
-                    <a href="#about" class="nav_d1_1_1" id="text_1">About me</a>
-                    <a href="#knowledges" class="nav_d1_1_2" id="text_2">Knowledges</a>
-                    <a href="#projects" class="nav_d1_1_3" id="text_3">Projects</a>
+                    <a href="#about" class="nav_d1_1_1" id="text_1">ABOUT ME</a>
+                    <a href="#knowledges" class="nav_d1_1_2" id="text_2">KNOWLEDGES</a>
+                    <a href="#projects" class="nav_d1_1_3" id="text_3">PROJECTS</a>
                 </div>
                 <!--phone menu icon-->                
                 <div class="nav_d1_2" id="nav_d1_2" onclick="nav_d1_2()">
@@ -66,9 +87,9 @@
     <!-- nav for responsive -->
     <nav class="nav_e" id="nav_e">
         <div class="nav_e1" id="nav_e1">
-            <a href="#about" class="nav_e1_1" id="text_12">About me</a>
-            <a href="#knowledges" class="nav_e1_2" id="text_13">Knowledges</a>
-            <a href="#projects" class="nav_e1_3" id="text_14">Projects</a>
+            <a href="#about" class="nav_e1_1" id="text_12"><b>ABOUT ME</b></a>
+            <a href="#knowledges" class="nav_e1_2" id="text_13"><b>KNOWLEDGES</b></a>
+            <a href="#projects" class="nav_e1_3" id="text_14"><b>PROJECTS</b></a>
         </div>
     </nav>
     <!---->
@@ -87,68 +108,106 @@
             </div>
 
             <div class="header_c5">
-                <a href="https://github.com/SSGz2612" class="header_c5_1"><div class="header_c5_1_1"></div></a>
-                <a href="https://www.linkedin.com/in/sergio-gimenez-b71406204/" class="header_c5_2"><div class="header_c5_2_1"></div></a>
-                <a href="https://www.behance.net/sduarte2612" class="header_c5_3"><div class="header_c5_3_1"></div></a>
-                <a href="https://www.facebook.com/sduarte2612" class="header_c5_4"><div class="header_c5_4_1"></div></a>
+                <a href="https://github.com/SSGz2612" class="gralButton">
+                    <div class="boxName">github</div>
+                    <span class="gitHub_SS"></span>
+                </a>
+
+                <a href="https://www.linkedin.com/in/sergio-gimenez-b71406204/" class="gralButton">
+                    <div class="boxName">linkedin</div>
+                    <span class="linkedin_SS"></span>
+                </a>
+
+                <a href="https://www.behance.net/sduarte2612" class="gralButton">
+                    <div class="boxName">behance</div>
+                    <span class="behance_SS"></span>
+                </a>
+
+                <a href="https://www.instagram.com/sduarte2612/" class="gralButton">
+                    <div class="boxName">instagram</div>
+                    <span class="instagram_SS"></span>
+                </a>
             </div>
         </div>
         <div class="header_d">
-            <div class="header_d1"></div>
+            <div class="contentComputer">
+                <div class="Computer">
+                    <div class="CompLang"></div>
+                </div>
+            </div>
         </div>
     </header>
 
     <section> <a name="about"></a>
+        <div class="contentBackGround">
         <div class="section_a">
             <div class="section_a1">
                 <div class="section_a1_1"></div>
             </div>
 
             <div class="section_a2">
-                <div class="section_a2_1" id="text_7">About me</div>
-                <div class="section_a2_2" id="text_8">I am a Junior Developer in Frontend with basic knowledge in Backend, actually in constant learning and ready for future projects. I also have interesting in moviles applications and games applications, I consider myself responsible, growth mind and patient.</div>
+                <div class="section_a2_1" id="text_7">ABOUT ME</div>
+                <div class="section_a2_2" id="text_8"><span>I am a Junior Developer in Frontend, actually I working as Freelance making layout using HTML, CSS, I have experience writing JavaScript for websites. I have experience in React and Redux, I undersdtand PHP and SQL.
+                </br></br>
+                My goal is constant self-development, improving the skills of solving momentary problems by any means. Personal qualities: high responsibility, attention to detail, ability to concentrate, high determination, analytical thinking and expression of ideas.</span></div>
             </div>
+        </div>
         </div>
     </section>
 
     <section> <a name="knowledges"></a>
         <div class="section_b">
-            <div class="section_b1" id="text_11">Knowledges</div>
+            <div class="section_b1" id="text_11">KNOWLEDGES</div>
 
             <div class="section_b2">
-                <div class="section_b2_1">
-                    <div class="section_b2_1_1"></div>
-                    <div class="section_b2_1_2">JavaScript</div>
-                </div>
-                
-                <div class="section_b2_2">
-                    <div class="section_b2_2_1"></div>
-                    <div class="section_b2_2_2">CSS</div>
+                <div class="gralSetKWIcons">
+                    <div class="setKWLogo javaScript"></div>
+                    <div class="setKWName">JavaScript</div>
                 </div>
 
-                <div class="section_b2_3">
-                    <div class="section_b2_3_1"></div>
-                    <div class="section_b2_3_2">HTML</div>
+                <div class="gralSetKWIcons">
+                    <div class="setKWLogo ccs3"></div>
+                    <div class="setKWName">CSS</div>
                 </div>
 
-                <div class="section_b2_4">
-                    <div class="section_b2_4_1"></div>
-                    <div class="section_b2_4_2">React</div>
+                <div class="gralSetKWIcons">
+                    <div class="setKWLogo bootstrap"></div>
+                    <div class="setKWName">Bootstrap</div>
                 </div>
 
-                <div class="section_b2_5">
-                    <div class="section_b2_5_1"></div>
-                    <div class="section_b2_5_2">PHP</div>
+                <div class="gralSetKWIcons">
+                    <div class="setKWLogo materialUI"></div>
+                    <div class="setKWName">Material UI</div>
                 </div>
 
-                <div class="section_b2_6">
-                    <div class="section_b2_6_1"></div>
-                    <div class="section_b2_6_2">SQL</div>
+                <div class="gralSetKWIcons">
+                    <div class="setKWLogo html5"></div>
+                    <div class="setKWName">HTML</div>
                 </div>
 
-                <div class="section_b2_7">
-                    <div class="section_b2_7_1"></div>
-                    <div class="section_b2_7_2">Git</div>
+                <div class="gralSetKWIcons">
+                    <div class="setKWLogo react"></div>
+                    <div class="setKWName">React</div>
+                </div>
+
+                <div class="gralSetKWIcons">
+                    <div class="setKWLogo redux"></div>
+                    <div class="setKWName">Redux</div>
+                </div>
+
+                <div class="gralSetKWIcons">
+                    <div class="setKWLogo php"></div>
+                    <div class="setKWName">PHP</div>
+                </div>
+
+                <div class="gralSetKWIcons">
+                    <div class="setKWLogo sql"></div>
+                    <div class="setKWName">SQL</div>
+                </div>
+
+                <div class="gralSetKWIcons">
+                    <div class="setKWLogo git"></div>
+                    <div class="setKWName">Git</div>
                 </div>
             </div>
         </div>
@@ -156,10 +215,36 @@
 
     <div class="section_CT0"> <a name="projects"></a>
         <div class="section_CT1">
-            <div class="section_c1" id="text_15">Projects</div>
+            <div class="section_c1" id="text_15">PROJECTS</div>
         </div>
 
         <div class="section_c">
+            <div class="section_c2">
+                <div class="section_c2_1_1">
+                    <a href="https://github.com/SSGz2612/ecshop.git"
+                        class="section_c2_1_1_1"
+                        id="text_16"
+                    >Shop Card</a>
+                </div>
+                <div class="section_c2_1_2">
+                    <div class="section_c2_1_2_1"></div>
+                    <div class="section_c2_1_2_2"></div>
+                </div>
+            </div>
+
+            <div class="section_c2">
+                <div class="section_c2_1_1">
+                    <a href="https://github.com/SSGz2612/prorating.git"
+                        class="section_c2_1_1_1"
+                        id="text_16"
+                    >Prorating</a>
+                </div>
+                <div class="section_c2_1_2">
+                    <div class="section_c2_1_2_1"></div>
+                    <div class="section_c2_1_2_2"></div>
+                </div>
+            </div>
+
             <div class="section_c2">
                 <div class="section_c2_1_1">
                     <a href="https://ssgz2612.github.io/curconverter/"
@@ -207,7 +292,7 @@
                 <a href="https://github.com/SSGz2612" class="footer_a1_1"><div class="footer_a1_1_1"></div></a>
                 <a href="https://www.linkedin.com/in/sergio-gimenez-b71406204/" class="footer_a1_2"><div class="footer_a1_2_1"></div></a>
                 <a href="https://www.behance.net/sduarte2612" class="footer_a1_3"><div class="footer_a1_3_1"></div></a>
-                <a href="https://www.facebook.com/sduarte2612" class="footer_a1_4"><div class="footer_a1_4_1"></div></a>
+                <a href="https://www.instagram.com/sduarte2612/" class="footer_a1_4"><div class="footer_a1_4_1"></div></a>
             </div>
 
             <div class="footer_a2" id="text_10">Sergio D. Gimenez | © 2022</div>
@@ -215,6 +300,7 @@
     </footer>
 
     <script src="scripts.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
 
 </body>
 

@@ -11,103 +11,21 @@
     /* SECTION */
     .section_a {
         flex-direction: row;
-        border-radius: 10px;
-        border: 2px solid #232933;
-    }
-
-    .section_a1 {
-        /*flex*/
-        align-items: center;
-
-        background-image: url("tools/backgP3.svg");
     }
 
     .section_a1_1 {
-        /*image*/
         background-size: 225px;
-        /**/
         margin: 50px;
         width: 225px;
         height: 225px;
     }
 
-    .section_a2 { padding: 50px; }
+    .section_a2 {
+        color: #232933;
+        padding: 50px;
+    }
     .section_a2_1 { justify-content: flex-start; }
     .section_a2_2 { padding: 0px; }
-
-    .section_b1 {
-        color: #232933;
-        background-color: #FFFFFF;
-    }
-    .section_b2 { background-color: #FFFFFF; }
-
-    /*javascript*/
-    .section_b2_1 { border: none; }
-    .section_b2_1_2 {
-        color: #232933;
-        border-top: 1px solid #232933;
-    }
-    .section_b2_1_1 { border: 2px solid #232933; }
-
-    /*css*/
-    .section_b2_2 { border: none; }
-    .section_b2_2_1 {
-        background-image: url("tools/CSS3.svg");
-        background-color: #FFFFFF;
-        border: 2px solid #2162AF;
-    }
-    .section_b2_2_2 { color: #232933; }
-
-    /*html*/
-    .section_b2_3 { border: none; }
-    .section_b2_3_1 {
-        background-image: url("tools/HTML.svg");
-        background-color: #FFFFFF;
-        border: 2px solid #E44D26;
-    }
-    .section_b2_3_2 { color: #232933; }
-
-    /*react*/
-    .section_b2_4 { border: none; }
-    .section_b2_4_1 {
-        background-image: url("tools/React.svg");
-        background-color: #FFFFFF;
-        border: 2px solid #53C1DE;
-    }
-    .section_b2_4_2 { color: #232933; }
-
-    /*PHP*/
-    .section_b2_5 { border: none; }
-    .section_b2_5_1 {
-        background-image: url("tools/PHP.svg");
-        background-color: #FFFFFF;
-        border: 2px solid #6383BB;
-    }
-    .section_b2_5_2 {
-        color: #232933;
-        border-top: 1px solid #6383BB;
-    }
-
-    /*SQL*/
-    .section_b2_6 { border: none; }
-    .section_b2_6_1 {
-        background-image: url("tools/SQL.svg");
-        background-color: #FFFFFF;
-        border: 2px solid #AAAAAA;
-    }
-    .section_b2_6_2 {
-        color: #232933;
-        border-top: 1px solid #AAAAAA;
-    }
-
-    /*git*/
-    .section_b2_7 { border: none; }
-    .section_b2_7_1 {
-        background-image: url("tools/Git.svg");
-        background-color: #FFFFFF;
-        border: 2px solid #E31E24;
-    }
-    .section_b2_7_2 { color: #232933; }
 }
 
 @media only screen and ( max-width: 991px ) {
@@ -128,8 +46,6 @@
     .nav_d1_2 { display: none; }
     .nav_e1 { display: none; }
 }
-
-@media only screen and ( min-width: 1200px ) {}
 
 @media only screen and ( max-width: 1439px ) {
     /* NAV */

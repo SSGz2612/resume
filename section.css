@@ -1,45 +1,51 @@
 section {
-    /*flex*/
     display: flex;
-    /**/
     margin: auto;
-    width: 1440px;
+    width: auto;
+    height: auto;
+}
+
+.contentBackGround {
+    display: flex;
+    background-image: url("tools/backgP1.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: auto;
+    width: 100%;
     height: auto;
 }
 
 /* SECTION_X */
 .section_a {
-    /*flex*/
     display: flex;
     flex-direction: column;
+    width: 1440px;
+    margin: auto;
+    padding: 20px 0px;
 }
 
 .section_b {
-    /*flex*/
     display: flex;
     flex-direction: column;
-
-    width: 100%;
+    width: 1440px;
+    margin: auto;
 }
 
 .section_CT0 {
-    /*flex*/
     display: flex;
     flex-direction: column;
-    /**/
     margin: auto;
     width: 1440px;
     height: auto;
 }
 
 .section_CT1 {
-    /*flex*/
     display: flex;
     width: 100%;
 }
 
 .section_c {
-    /*flex*/
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -47,98 +53,72 @@ section {
 
 /* SECTION_X1 */
 .section_a1 {
-    /*flex*/
     display: flex;
     justify-content: center;
-    /*image*/
-    background-image: url("tools/backgP2.svg");
-    background-repeat: no-repeat;
-    background-size: 100%;
-
     width: 100%;
     height: 100%;
 }
 
 .section_a2 {
-    /*flex*/
     display: flex;
     flex-direction: column;
-    /*text*/    
     color: #FFFFFF;
-
-    background-color: #232933;
     width: auto;
 }
 
 .section_b1 {
-    /*flex*/
     display: flex;
     justify-content: center;
-    /*text*/
     font-family: SamsungSansBold, sans-serif;
     font-size: 20px;
     line-height: 70px;
-    color: #FFFFFF;
-
-    background-color: #232933;
+    color: #232933;
     width: 100%;
     height: 70px;
 }
 
 .section_b2 {
-    /*flex*/
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-
-    background-color: #232933;
     width: 100%;
     height: auto;
 }
 
 .section_c1 {
-    /*flex*/
     display: flex;
     justify-content: center;
-    /*text*/
     font-family: SamsungSansBold, sans-serif;
     font-size: 20px;
     line-height: 70px;
     color: #232933;
-    /**/
     width: 100%;
     height: 70px;
 }
 
 .section_c2 {
-    /*flex*/
     display: flex;
     flex-direction: column;
     align-items: center;
-    /**/
     margin: 20px;
     width: 300px;
     height: 140px;
 }
 
 .section_c3 {
-    /*flex*/
     display: flex;
     flex-direction: column;
     align-items: center;
-    /**/
     margin: 20px;
     width: 300px;
     height: 140px;
 }
 
 .section_c4 {
-    /*flex*/
     display: flex;
     flex-direction: column;
     align-items: center;
-    /**/
     margin: 20px;
     width: 300px;
     height: 140px;
@@ -146,14 +126,11 @@ section {
 
 /* SECTION_X1_1 */
 .section_a1_1 {
-    /*flex*/
     display: flex;
-    /*image*/
     background-image: url("tools/profile.jpeg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 200px;
-
     width: 200px;
     height: 200px;
     border: 5px solid #232933;
@@ -161,326 +138,119 @@ section {
 }
 
 .section_a2_1 {
-    /*flex*/
     display: flex;
     justify-content: center;
-    /*text*/
     font-family: SamsungSansBold, sans-serif;
     font-size: 20px;
     line-height: 70px;
-    
     width: auto;
     height: 70px;
 }
 
 .section_a2_2 {
-    /*flex*/
     display: flex;
-
     padding: 0px 20px;
     width: auto;
 }
 
-.section_b2_1 {
-    /*flex*/
+/* KNOWLEDGES ICONS */
+.gralSetKWIcons {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-
-    margin: 20px;
+    margin: 10px 20px;
     width: 100px;
     height: 120px;
-    border: 1px solid #F7DF1E;
-    border-radius: 5px;
+    border: 2px solid #232933;
+    border-radius: 4px;
 }
 
-.section_b2_2 {
-    /*flex*/
+.setKWLogo {
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-
-    margin: 20px;
-    width: 100px;
-    height: 120px;
-    border: 1px solid #2162AF;
-    border-radius: 5px;
+    margin: 10px;
+    width: 70px;
+    height: 70px;
 }
 
-.section_b2_3 {
-    /*flex*/
+.setKWName {
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-
-    margin: 20px;
-    width: 100px;
-    height: 120px;
-    border: 1px solid #E44D26;
-    border-radius: 5px;
+    align-items: flex-start;
+    justify-content: center;
+    width: 90%;
+    height: 30px;
 }
 
-.section_b2_4 {
-    /*flex*/
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-
-    margin: 20px;
-    width: 100px;
-    height: 120px;
-    border: 1px solid #53C1DE;
-    border-radius: 5px;
-}
-
-.section_b2_5 {
-    /*flex*/
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-
-    margin: 20px;
-    width: 100px;
-    height: 120px;
-    border: 1px solid #6383BB;
-    border-radius: 5px;
-}
-
-.section_b2_6 {
-    /*100px*/
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-
-    margin: 20px;
-    width: 100px;
-    height: 120px;
-    border: 1px solid #AAAAAA;
-    border-radius: 5px;
-}
-
-.section_b2_7 {
-    /*100px*/
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-
-    margin: 20px;
-    width: 100px;
-    height: 120px;
-    border: 1px solid #E31E24;
-    border-radius: 5px;
-}
-
-/* SECTION_X1_1_1 */
-.section_b2_1_1 {
-    /*flex*/
-    display: flex;
-    /*image*/
+.javaScript {
     background-image: url("tools/SS_JavaScript.svg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 70px;
-
-    background-color: #F7DF1E;
-    margin: 10px;
-    width: 70px;
-    height: 70px;
+    background-color: #F6DF1A;
     border-radius: 35px;
 }
 
-.section_b2_1_2 {
-    /*flex*/
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /*text*/
-    color: #FFFFFF;
-
-    width: 90%;
-    height: 30px;
-    border-top: 1px solid #F7DF1E;
-}
-
-.section_b2_2_1 {
-    /*flex*/
-    display: flex;
-    /*image*/
-    background-image: url("tools/White_CSS3.svg");
+.ccs3 {
+    background-image: url("tools/CSS3.svg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 70px;
-
-    background-color: #2162AF;
-    margin: 10px;
-    width: 70px;
-    height: 70px;
-    border-radius: 35px;
 }
 
-.section_b2_2_2 {
-    /*flex*/
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /*text*/
-    color: #FFFFFF;
-    /**/
-    width: 90%;
-    height: 30px;
-    border-top: 1px solid #2162AF;
-}
-
-.section_b2_3_1 {
-    /*flex*/
-    display: flex;
-    /*image*/
-    background-image: url("tools/White_HTML.svg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 65px;
-
-    background-color: #E44D26;
-    margin: 10px;
-    width: 70px;
-    height: 70px;
-    border-radius: 35px;
-}
-
-.section_b2_3_2 {
-    /*flex*/
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /*text*/
-    color: #FFFFFF;
-
-    width: 90%;
-    height: 30px;
-    border-top: 1px solid #E44D26;
-}
-
-.section_b2_4_1 {
-    /*flex*/
-    display: flex;
-    /*image*/
-    background-image: url("tools/White_React.svg");
+.bootstrap {
+    background-image: url("tools/Bootstrap.svg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 70px;
-
-    background-color: #53C1DE;
-    margin: 10px;
-    width: 70px;
-    height: 70px;
-    border-radius: 35px;
 }
 
-.section_b2_4_2 {
-    /*flex*/
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /*text*/
-    color: #FFFFFF;
-
-    width: 90%;
-    height: 30px;
-    border-top: 1px solid #53C1DE;
-}
-
-.section_b2_5_1 {
-    /*flex*/
-    display: flex;
-    /*image*/
-    background-image: url("tools/White_PHP.svg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 50px;
-
-    background-color: #6383BB;
-    margin: 10px;
-    width: 70px;
-    height: 70px;
-    border-radius: 35px;
-}
-
-.section_b2_5_2 {
-    /*flex*/
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /*text*/
-    color: #FFFFFF;
-
-    width: 90%;
-    height: 30px;
-    border-top: 1px solid #6383BB;
-}
-
-.section_b2_6_1 {
-    /*flex*/
-    display: flex;
-    /*image*/
-    background-image: url("tools/White_SQL.svg");
+.materialUI {
+    background-image: url("tools/MaterialUI.svg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 70px;
-
-    background-color: #AAAAAA;
-    margin: 10px;
-    width: 70px;
-    height: 70px;
-    border-radius: 35px;
 }
 
-.section_b2_6_2 {
-    /*flex*/
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /*text*/
-    color: #FFFFFF;
-    /**/
-    width: 90%;
-    height: 30px;
-    border-top: 1px solid #AAAAAA;
-}
-
-.section_b2_7_1 {
-    /*flex*/
-    display: flex;
-    /*image*/
-    background-image: url("tools/White_Git.svg");
+.html5 {
+    background-image: url("tools/HTML.svg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 70px;
-
-    background-color: #E31E24;
-    margin: 10px;
-    width: 70px;
-    height: 70px;
-    border-radius: 35px;
 }
 
-.section_b2_7_2 {
-    /*flex*/
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /*text*/
-    color: #FFFFFF;
-    /**/
-    width: 90%;
-    height: 30px;
-    border-top: 1px solid #E31E24;
+.react {
+    background-image: url("tools/React.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70px;
+}
+
+.redux {
+    background-image: url("tools/Redux.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70px;
+}
+
+.php {
+    background-image: url("tools/PHP.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70px;
+}
+
+.sql {
+    background-image: url("tools/SQL.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70px;
+}
+
+.git {
+    background-image: url("tools/Git.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70px;
 }
 
 .section_c2_1_1 {

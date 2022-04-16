@@ -86,77 +86,61 @@ footer {
 
 /* FOOTER_X1_1_1 */
 .footer_a1_1_1 {
-    /*image*/
-    background-image: url("tools/GitHubWhite.svg");
+    background-image: url("tools/gitHubWhite.svg");
     background-repeat: no-repeat;
     background-attachment: inherit;
     background-size: 25px;
-    /**/
     width: 25px;
     height: 25px;
 }
 
 .footer_a1_1_1:hover {
-    background-image: url("tools/GitHubWhite.svg");
     background-size: 30px;
-    /**/
     width: 30px;
     height: 30px;
 }
 
 .footer_a1_2_1 {
-    /*image*/
     background-image: url("tools/linkedinWhite.svg");
     background-repeat: no-repeat;
     background-attachment: inherit;
     background-size: 25px;
-    /**/
     width: 25px;
     height: 25px;
 }
 
 .footer_a1_2_1:hover {
-    background-image: url("tools/linkedin.svg");
     background-size: 30px;
-    /**/
     width: 30px;
     height: 30px;
 }
 
 .footer_a1_3_1 {
-    /*image*/
     background-image: url("tools/behanceWhite.svg");
     background-repeat: no-repeat;
     background-attachment: inherit;
     background-size: 25px;
-    /**/
     width: 25px;
     height: 25px;
 }
 
 .footer_a1_3_1:hover {
-    background-image: url("tools/behance.svg");
     background-size: 30px;
-    /**/
     width: 30px;
     height: 30px;
 }
 
 .footer_a1_4_1 {
-    /*image*/
-    background-image: url("tools/facebookWhite.svg");
+    background-image: url("tools/instagramWhite.svg");
     background-repeat: no-repeat;
     background-attachment: inherit;
     background-size: 25px;
-    /**/
     width: 25px;
     height: 25px;
 }
 
 .footer_a1_4_1:hover {
-    background-image: url("tools/facebook.svg");
     background-size: 30px;
-    /**/
     width: 30px;
     height: 30px;
 }
