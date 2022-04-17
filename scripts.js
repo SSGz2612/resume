@@ -22,35 +22,35 @@ var u6 = document.getElementById("nav_d1_2_1_6");
 var u7 = document.getElementById("nav_d1_2_1_7");
 
 var engL = [
-    "About me", "Knowledges", "Projects",
-    "Hi there! I am", "Frontend Developer", "Download Resume", "About me",
-    "I am a Junior Developer in Frontend with basic knowledge in Backend, actually in constant learning and ready for future projects. I also have interesting in moviles applications and games applications, I consider myself responsible, growth mind and patient.",
+    "ABOUT ME", "KNOWLEDGES", "PROJECTS",
+    "Hi there! I am", "Frontend Developer", "Download Resume", "ABOUT ME",
+    "I am a Junior Developer in Frontend and actually I working as Freelance making layout using HTML, CSS and JavaScript. I have experience in React and Redux, I understand PHP and SQL. My goal is constant self-development, improving the skills of solving momentary problems by any means. My ultimate goal is to be Full stack. Personal qualities: high responsibility, ability to concentrate, attention to details, high determination, analytical thinking and expression of ideas.",
     "Sergio D. Gimenez", "Sergio D. Gimenez | © 2022",
-    "Knowledges", "About me", "Knowledges", "Projects", "Projects", "Exchange Currency"
-];
+    "KNOWLEDGES", "ABOUT ME", "KNOWLEDGES", "PROJECTS", "PROJECTS", "Shop site", "Layout - Prorating", "Exchange Currency", "To-Do List", "Layout - Hayden"
+]; // LAST - text_19
 
 var espL = [
-    "Sobre mi", "Conocimientos", "Proyectos",
-    "Hola!", "Desarrollador Frontend", "Descargar Curriculum", "Sobre mi",
-    "Soy desarrollador Frontend con conocimientos basicos en el Backend, en constante aprendizaje y listo para cualquier proyecto. Tengo interes en el desarrollo movil y aplicaciones de juegos, Como persona me considero responsable, con crecimiento tanto personal como profesional.",
+    "SOBRE MI", "CONOCIMIENTOS", "PROYECTOS",
+    "Hola! soy", "Desarrollador Frontend", "Descargar Curriculum", "SOBRE MI",
+    "Soy un Desarrollador Junior en el Frontend y actualmente trabajo como Freelance haciendo maquetación usando HTML, CSS y JavaScript. Tengo experiencia en React y Redux, entiendo PHP y SQL. Mi objetivo es el autodesarrollo constante, mejorando las habilidades para resolver problemas momentáneos por cualquier medio. Mi objetivo final es ser Full stack. Mis cualidades: alta responsabilidad, capacidad de concentración, atención a los detalles, alta determinación, pensamiento analítico y expresión de ideas",
     "Sergio D. Gimenez", "Sergio D. Gimenez | © 2022",
-    "Conocimientos", "Sobre mi", "Conocimientos", "Proyectos", "Proyectos", "Cambio de Divisas"
+    "CONOCIMIENTOS", "SOBRE MI", "CONOCIMIENTOS", "PROYECTOS", "PROYECTOS", "Sitio de compras", "Diseño - Prorating", "Cambio de Divisas", "Lista de Tareas", "Diseño - Hayden"
 ];
 
 var ukrL = [
-    "Про мене", "Знання", "Проекти",
-    "Привіт! я", "Фронтенд Розробник", "Завантажити Резюме", "Про мене",
-    "Я Junior Developer Frontend з базовими знаннями в Backend, фактично постійно навчаюсь і готовий до майбутніх проектів. Я також ціквалюсь додатками в кіно та ігра, я вважаю себе відповідальним, здатним до розвитку і стресостійким.",
+    "ПРО МЕНЕ", "ЗНАННЯ", "ПРОЕКТИ",
+    "Привіт! я", "Фронтенд Розробник", "Завантажити Резюме", "ПРО МЕНЕ",
+    "Я Junior Frontend Developer, в данный момент я работаю фрилансером, делаю верстку с использованием HTML, CSS и JavaScript. Имею опыт работы с React и Redux, разбираюсь в PHP и SQL. Моя цель – постоянное саморазвитие, совершенствование навыков решения сиюминутных задач любыми способами. Моя конечная цель это Full stack. Мои личные качества: высокая ответственность, умение концентрироваться, внимательность к деталям, высокая целеустремленность, аналитическое мышление и выражение идей.",
     "Серхіо Д. Хіменез", "Серхіо Д. Хіменез | © 2022",
-    "Знання", "Про мене", "Знання", "Проекти", "Проекти", "Обміняти Валюту"
+    "ЗНАННЯ", "ПРО МЕНЕ", "ЗНАННЯ", "ПРОЕКТИ", "ПРОЕКТИ", "Shop site", "Layout - Prorating", "Обміняти Валюту", "To-Do List", "Layout - Hayden"
 ];
 
 var rusL = [
-    "Обо мне", "Знания", "Проекты",
-    "Всем привет! я", "Фронтенд Разработчик", "Скачать Резюме", "Обо мне",
-    "Я Junior Developer Frontend с базовыми знаниями в области Backend, постоянно учусь и готов к будущим проектам. Я так же интересуюсь приложениями для кино и игр, я считаю себя ответственным, способным к развитию и стрессоустойчевым.",
+    "ОБО МНЕ", "ЗНАННЯ", "ПРОЕКТЫ",
+    "Всем привет! я", "Фронтенд Разработчик", "Скачать Резюме", "ОБО МНЕ",
+    "Я Junior Frontend Developer, на даний момент я працюю фрілансером, роблю верстку з використанням HTML, CSS і JavaScript. Маю досвід роботи з React та Redux, знаюся на PHP та SQL. Моя мета – постійний саморозвиток, вдосконалення навичок вирішення миттєвих завдань будь-якими способами. Моя кінцева мета це Full stack. Мої особисті якості: висока відповідальність, вміння концентруватися, уважність до деталей, висока цілеспрямованість, аналітичне мислення та вираження ідей.",
     "Серхио Д. Хименез", "Серхио Д. Хименез | © 2022",
-    "Знания", "Обо мне", "Знания", "Проекты", "Проекты", "Обмен Валют"
+    "ЗНАННЯ", "ОБО МНЕ", "ЗНАННЯ", "ПРОЕКТЫ", "ПРОЕКТЫ", "Shop site", "Layout - Prorating", "Обмен Валют", "To-Do List", "Layout - Hayden"
 ];
 
 function changeL( lan ) {
