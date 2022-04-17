@@ -1,8 +1,8 @@
 var r1 = document.getElementById("nav_e");
 var s1 = document.getElementById("nav_c1");
 
-var x1 = document.getElementById("nav_c1_1");
-var x2 = document.getElementById("nav_c1_1_1");
+var boxDefault = document.getElementById("boxDefault");
+var boxSelected = document.getElementById("boxSelected");
 var boxENG = document.getElementById("boxENG");
 var boxSPA = document.getElementById("boxSPA");
 var boxUCR = document.getElementById("boxUCR");
@@ -60,7 +60,7 @@ function changeL( lan ) {
 }
 
 function defaultLanguage() {
-    x1.style.display = "none";
+    boxDefault.style.display = "none";
     boxENG.style.display = "flex";
     boxSPA.style.display = "flex";
     boxUCR.style.display = "flex";
@@ -68,8 +68,8 @@ function defaultLanguage() {
 }
 
 function englishLanguage() {
-    x1.style.display = "flex";
-    x2.style.backgroundImage = "url('tools/united-kingdom.png')";
+    boxDefault.style.display = "flex";
+    boxSelected.style.backgroundImage = "url('tools/united-kingdom.png')";
     boxENG.style.display = "none";
     boxSPA.style.display = "none";
     boxUCR.style.display = "none";
@@ -79,8 +79,8 @@ function englishLanguage() {
 }
 
 function spainLanguage() {
-    x1.style.display = "flex";
-    x2.style.backgroundImage = "url('tools/spain.png')";
+    boxDefault.style.display = "flex";
+    boxSelected.style.backgroundImage = "url('tools/spain.png')";
     boxENG.style.display = "none";
     boxSPA.style.display = "none";
     boxUCR.style.display = "none";
@@ -90,8 +90,8 @@ function spainLanguage() {
 }
 
 function ukraineLanguage() {
-    x1.style.display = "flex";
-    x2.style.backgroundImage = "url('tools/ukraine.png')";
+    boxDefault.style.display = "flex";
+    boxSelected.style.backgroundImage = "url('tools/ukraine.png')";
     boxENG.style.display = "none";
     boxSPA.style.display = "none";
     boxUCR.style.display = "none";
@@ -101,8 +101,8 @@ function ukraineLanguage() {
 }
 
 function russianLanguage() {
-    x1.style.display = "flex";
-    x2.style.backgroundImage = "url('tools/russia.png')";
+    boxDefault.style.display = "flex";
+    boxSelected.style.backgroundImage = "url('tools/russia.png')";
     boxENG.style.display = "none";
     boxSPA.style.display = "none";
     boxUCR.style.display = "none";
