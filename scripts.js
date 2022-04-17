@@ -32,7 +32,7 @@ var engL = [
     "Hi there! I am", "Frontend Developer", "Download Resume", "ABOUT ME",
     "I am a Junior Developer in Frontend and actually I working as Freelance making layout using HTML, CSS and JavaScript. I have experience in React and Redux, I understand PHP and SQL. My goal is constant self-development, improving the skills of solving momentary problems by any means. My ultimate goal is to be Full stack. Personal qualities: high responsibility, ability to concentrate, attention to details, high determination, analytical thinking and expression of ideas.",
     "Sergio D. Gimenez", "Sergio D. Gimenez | © 2022",
-    "KNOWLEDGES", "ABOUT ME", "KNOWLEDGES", "PROJECTS", "PROJECTS", "Shop site", "Layout - Prorating", "Exchange Currency", "To-Do List", "Layout - Hayden"
+    "KNOWLEDGES", "ABOUT ME", "KNOWLEDGES", "PROJECTS", "PROJECTS", "Shop site", "Layout - Prorating", "Layout - Hayden", "Exchange Currency", "To-Do List"
 ]; // LAST - text_19
 
 var espL = [
@@ -40,7 +40,7 @@ var espL = [
     "Hola! soy", "Desarrollador Frontend", "Descargar Curriculum", "SOBRE MI",
     "Soy un Desarrollador Junior en el Frontend y actualmente trabajo como Freelance haciendo maquetación usando HTML, CSS y JavaScript. Tengo experiencia en React y Redux, entiendo PHP y SQL. Mi objetivo es el autodesarrollo constante, mejorando las habilidades para resolver problemas momentáneos por cualquier medio. Mi objetivo final es ser Full stack. Mis cualidades: alta responsabilidad, capacidad de concentración, atención a los detalles, alta determinación, pensamiento analítico y expresión de ideas",
     "Sergio D. Gimenez", "Sergio D. Gimenez | © 2022",
-    "CONOCIMIENTOS", "SOBRE MI", "CONOCIMIENTOS", "PROYECTOS", "PROYECTOS", "Sitio de compras", "Diseño - Prorating", "Cambio de Divisas", "Lista de Tareas", "Diseño - Hayden"
+    "CONOCIMIENTOS", "SOBRE MI", "CONOCIMIENTOS", "PROYECTOS", "PROYECTOS", "Sitio de compras", "Diseño - Prorating", "Diseño - Hayden", "Cambio de Divisas", "Lista de Tareas" 
 ];
 
 var ukrL = [
@@ -48,7 +48,7 @@ var ukrL = [
     "Привіт! я", "Фронтенд Розробник", "Завантажити Резюме", "ПРО МЕНЕ",
     "Я Junior Frontend Developer, в данный момент я работаю фрилансером, делаю верстку с использованием HTML, CSS и JavaScript. Имею опыт работы с React и Redux, разбираюсь в PHP и SQL. Моя цель – постоянное саморазвитие, совершенствование навыков решения сиюминутных задач любыми способами. Моя конечная цель это Full stack. Мои личные качества: высокая ответственность, умение концентрироваться, внимательность к деталям, высокая целеустремленность, аналитическое мышление и выражение идей.",
     "Серхіо Д. Хіменез", "Серхіо Д. Хіменез | © 2022",
-    "ЗНАННЯ", "ПРО МЕНЕ", "ЗНАННЯ", "ПРОЕКТИ", "ПРОЕКТИ", "Shop site", "Layout - Prorating", "Обміняти Валюту", "To-Do List", "Layout - Hayden"
+    "ЗНАННЯ", "ПРО МЕНЕ", "ЗНАННЯ", "ПРОЕКТИ", "ПРОЕКТИ", "Shop site", "Layout - Prorating", "Layout - Hayden", "Exchange Currency", "To-Do List"
 ];
 
 var rusL = [
@@ -56,7 +56,7 @@ var rusL = [
     "Всем привет! я", "Фронтенд Разработчик", "Скачать Резюме", "ОБО МНЕ",
     "Я Junior Frontend Developer, на даний момент я працюю фрілансером, роблю верстку з використанням HTML, CSS і JavaScript. Маю досвід роботи з React та Redux, знаюся на PHP та SQL. Моя мета – постійний саморозвиток, вдосконалення навичок вирішення миттєвих завдань будь-якими способами. Моя кінцева мета це Full stack. Мої особисті якості: висока відповідальність, вміння концентруватися, уважність до деталей, висока цілеспрямованість, аналітичне мислення та вираження ідей.",
     "Серхио Д. Хименез", "Серхио Д. Хименез | © 2022",
-    "ЗНАННЯ", "ОБО МНЕ", "ЗНАННЯ", "ПРОЕКТЫ", "ПРОЕКТЫ", "Shop site", "Layout - Prorating", "Обмен Валют", "To-Do List", "Layout - Hayden"
+    "ЗНАННЯ", "ОБО МНЕ", "ЗНАННЯ", "ПРОЕКТЫ", "ПРОЕКТЫ", "Shop site", "Layout - Prorating", "Layout - Hayden", "Exchange Currency", "To-Do List"
 ];
 
 function changeL( lan ) {
