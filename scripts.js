@@ -8,6 +8,12 @@ var boxSPA = document.getElementById("boxSPA");
 var boxUCR = document.getElementById("boxUCR");
 var boxRUS = document.getElementById("boxRUS");
 
+// var cardProjectShop = document.getElementById("cardProjectShop");
+// var cardProjectRating = document.getElementById("cardProjectRating");
+// var cardProjectExchange = document.getElementById("cardProjectExchange");
+// var cardProjectToDo = document.getElementById("cardProjectToDo");
+// var cardProjectHayden = document.getElementById("cardProjectHayden");
+
 var v1 = document.getElementById( "nav_d1_1");
 var v2 = document.getElementById( "nav_d1_2");
 
@@ -141,3 +147,43 @@ function nav_d1_2() {
         t1.style.borderRadius = "15px";
     }
 }
+
+// const projectShop = () => {
+//     if( cardProjectShop.style.display == "flex" ) {
+//         cardProjectShop.style.display = "none";
+//     } else {
+//         cardProjectShop.style.display = "flex";
+//     }
+// }
+
+// const projectRating = () => {
+//     if( cardProjectRating.style.display == "flex" ) {
+//         cardProjectRating.style.display = "none";
+//     } else {
+//         cardProjectRating.style.display = "flex";
+//     }
+// }
+
+// const projectExchange = () => {
+//     if( cardProjectExchange.style.display == "flex" ) {
+//         cardProjectExchange.style.display = "none";
+//     } else {
+//         cardProjectExchange.style.display = "flex";
+//     }
+// }
+
+// const projectTodo = () => {
+//     if( cardProjectToDo.style.display == "flex" ) {
+//         cardProjectToDo.style.display = "none";
+//     } else {
+//         cardProjectToDo.style.display = "flex";
+//     }
+// }
+
+// const projectHayden = () => {
+//     if( cardProjectHayden.style.display == "flex" ) {
+//         cardProjectHayden.style.display = "none";
+//     } else {
+//         cardProjectHayden.style.display = "flex";
+//     }
+// }
