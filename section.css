@@ -81,7 +81,6 @@ section {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
     width: 100%;
     height: auto;
 }
@@ -97,34 +96,7 @@ section {
     height: 70px;
 }
 
-.section_c2 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 20px;
-    width: 300px;
-    height: 140px;
-}
-
-.section_c3 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 20px;
-    width: 300px;
-    height: 140px;
-}
-
-.section_c4 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 20px;
-    width: 300px;
-    height: 140px;
-}
-
-/* SECTION_X1_1 */
+/* PROFILE */
 .section_a1_1 {
     display: flex;
     background-image: url("tools/profile.jpeg");
@@ -253,159 +225,103 @@ section {
     background-size: 70px;
 }
 
-.section_c2_1_1 {
-    /*flex*/
+/* SECTION OF PROJECTS */
+.gralSetProjectIcons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    height: auto;
+    
+    margin: 20px;
+    border: 1px solid #232933;
+    border-radius: 5px;
+}
+
+/* PROJECTS */
+.contentTittle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #232933;
+    width: 100%;
+    height: 50px;
+}
+
+.contentTittle a { color: #FFFFFF; }
+
+.contentCardProject {
     display: flex;
     align-items: center;
     justify-content: center;
-    /**/
-    background-color: #232933;
+    background-color: #AAAAAA;
     width: 100%;
-    height: 50%;
-    border: 1px solid #232933;
-    border-radius: 5px 5px 0px 0px;
+    height: 200px;
 }
 
-.section_c2_1_2 {
-    /*flex*/
+.contentFootIcon {
     display: flex;
     justify-content: center;
-    /**/
     width: 100%;
-    height: 50%;
-    border: 1px solid #232933;
-    border-radius: 0px 0px 5px 5px;
+    height: 50px;
 }
 
-.section_c3_1_1 {
-    /*flex*/
+.ss_ReactIcon {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    /**/
-    background-color: #232933;
-    width: 100%;
-    height: 50%;
-    border: 1px solid #232933;
-    border-radius: 5px 5px 0px 0px;
-}
-
-.section_c3_1_2 {
-    /*flex*/
-    display: flex;
-    justify-content: center;
-    /**/
-    width: 100%;
-    height: 50%;
-    border: 1px solid #232933;
-    border-radius: 0px 0px 5px 5px;
-}
-
-.section_c4_1_1 {
-    /*flex*/
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /**/
-    background-color: #232933;
-    width: 100%;
-    height: 50%;
-    border: 1px solid #232933;
-    border-radius: 5px 5px 0px 0px;
-}
-
-.section_c4_1_2 {
-    /*flex*/
-    display: flex;
-    justify-content: center;
-    /**/
-    width: 100%;
-    height: 50%;
-    border: 1px solid #232933;
-    border-radius: 0px 0px 5px 5px;
-}
-
-/*************
-SECTION_X1_1_1
-*************/
-.section_c2_1_1_1 { color: #FFFFFF; }
-.section_c3_1_1_1 { color: #FFFFFF; }
-.section_c4_1_1_1 { color: #FFFFFF; }
-
-.section_c2_1_2_1 {
-    /*flex*/
-    display: flex;
-    /*image*/
     background-image: url("tools/SS_React.svg");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 60px;
-    /**/
-    width: 60px;
-    height: 70px;
+    background-size: 50px;
+    width: 50px;
+    height: 50px;
 }
 
-.section_c2_1_2_2 {
-    /*flex*/
+.ss_ReduxIcon {
     display: flex;
-    /*image*/
+    background-image: url("tools/SS_Redux.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50px;
+    width: 50px;
+    height: 50px;
+}
+
+.ss_GitIcon {
+    display: flex;
     background-image: url("tools/SS_Git.svg");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 60px;
-    /**/
-    width: 60px;
-    height: 70px;
+    background-size: 50px;
+    width: 50px;
+    height: 50px;
 }
 
-.section_c3_1_2_1 {
-    /*flex*/
+.ss_HTMLIcon {
     display: flex;
-    /*image*/
-    background-image: url("tools/SS_React.svg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 60px;
-    /**/
-    width: 60px;
-    height: 70px;
-}
-
-.section_c3_1_2_2 {
-    /*flex*/
-    display: flex;
-    /*image*/
-    background-image: url("tools/SS_Git.svg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 60px;
-    /**/
-    width: 60px;
-    height: 70px;
-}
-
-.section_c4_1_2_1 {
-    /*flex*/
-    display: flex;
-    /*image*/
     background-image: url("tools/SS_HTML.svg");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 60px;
-    /**/
-    width: 60px;
-    height: 70px;
+    background-size: 50px;
+    width: 50px;
+    height: 50px;
 }
 
-.section_c4_1_2_2 {
-    /*flex*/
+.ss_CSS3Icon {
     display: flex;
-    /*image*/
     background-image: url("tools/SS_CSS3.svg");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 60px;
-    /**/
-    width: 60px;
-    height: 70px;
+    background-size: 50px;
+    width: 50px;
+    height: 50px;
+}
+
+.ss_MaterialUIIcon {
+    display: flex;
+    background-image: url("tools/SS_MaterialUI.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50px;
+    width: 50px;
+    height: 50px;
 }
