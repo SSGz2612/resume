@@ -26,6 +26,10 @@
     }
     .section_a2_1 { justify-content: flex-start; }
     .section_a2_2 { padding: 0px; }
+
+    .gralSetProjectIcons {
+        width: 30%;
+    }
 }
 
 @media only screen and ( max-width: 991px ) {
