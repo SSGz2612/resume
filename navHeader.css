@@ -134,7 +134,7 @@ a {
     display: flex;
     align-items: center;
     text-align: center;
-    line-height: 45px;
+    line-height: 40px;
     width: auto;
     height: 40px;
 }
@@ -178,7 +178,7 @@ a {
     border-bottom: 2px solid #232933;
 }
 
-.nav_d1_1_1 {
+.navAboutMe {
     display: flex;
     padding: 0px 50px;
     width: auto;
@@ -186,9 +186,9 @@ a {
     border-bottom: 2px solid #FFFFFF;
 }
 
-.nav_d1_1_1:hover { border-bottom: 2px solid #232933; }
+.navAboutMe:hover { border-bottom: 2px solid #232933; }
 
-.nav_d1_1_2 {
+.navBtnKnowledges {
     display: flex;
     padding: 0px 50px;
     width: auto;
@@ -196,17 +196,17 @@ a {
     border-bottom: 2px solid #FFFFFF;
 }
 
-.nav_d1_1_2:hover { border-bottom: 2px solid #232933; }
+.navBtnKnowledges:hover { border-bottom: 2px solid #232933; }
 
-.nav_d1_1_3 {
+.navBtnProjects {
     display: flex;
+    background-color: #232933;
+    color: #FFFFFF;
     padding: 0px 50px;
     width: auto;
     height: 40px;
-    border-bottom: 2px solid #FFFFFF;
+    border-radius: 20px;
 }
-
-.nav_d1_1_3:hover { border-bottom: 2px solid #232933; }
 
 .nav_d1_2_1 { width: 25px; }
 
@@ -258,6 +258,7 @@ header {
     height: 350px;
     z-index: 2;
 }
+
 /* PARALLAX */
 .layer {
     display: flex;
