@@ -258,6 +258,18 @@ header {
     height: 350px;
     z-index: 2;
 }
+/* PARALLAX */
+.layer {
+    display: flex;
+    width: 100%;
+    height: 550px;
+}
+
+.layer img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
 
 .header_c {
     display: flex;
@@ -325,17 +337,6 @@ header {
     margin: 20px;
     width: 540px;
     height: 440px;
-}
-
-.CompLang {
-    background-image: url("tools/backgP4.svg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    position: absolute;
 }
 
 /* DOWLOAD BUTTON */

@@ -77,6 +77,7 @@
     </nav>
 
     <header>
+        <!-- HEADER INFO PART/ LEFT -->
         <div class="header_c">
             <div class="header_c1" id="text_4">Hi there! I am</div>
             
@@ -111,10 +112,14 @@
                 </a>
             </div>
         </div>
+        <!-- HEADER COMPUTER PART/ RIGHT -->
         <div class="header_d">
             <div class="contentComputer">
                 <div class="Computer">
-                    <div class="CompLang"></div>
+                    <div class="container" id="scene">
+                        <div class="layer" data-depth="0.5"><img src="./tools/backComputerTech.svg"></div>
+                        <div class="layer" data-depth="0.2"><img src="./tools/backComputerTech2.svg"></div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -301,6 +306,10 @@
 
     <script src="scripts.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+    <script>
+        var scene = document.getElementById('scene');
+        var parallaxInstance = new Parallax( scene );
+    </script>
 
 </body>
 
