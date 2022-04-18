@@ -241,7 +241,7 @@ section {
     height: auto;
 }
 
-/* PROJECTS */
+/* PROJECTS CARDS*/
 .contentTittle {
     display: flex;
     align-items: center;
@@ -250,85 +250,47 @@ section {
     color: #FFFFFF;
     width: 100%;
     height: 50px;
-    border: 1px solid #232933;
+    border: 2px solid #232933;
     border-radius: 5px 5px 0px 0px;
 }
 
 .contentCardProject {
     align-items: center;
     justify-content: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     width: 100%;
     height: 200px;
     cursor: pointer;
 }
 
-#cardProjectShop {
-    background-image: url("tools/imgProjectShop.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-#cardProjectRating {
-    background-image: url("tools/imgProjectRating.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-#cardProjectHayden {
-    background-image: url("tools/imgProjectHayden.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-#cardProjectExchange {
-    background-image: url("tools/imgProjectExchange.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-#cardProjectToDo {
-    background-image: url("tools/imgProjectToDoList.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
+.cardProjectShop { background-image: url("tools/imgProjectShop.jpg"); }
+.cardProjectRating { background-image: url("tools/imgProjectRating.jpg"); }
+.cardProjectHayden { background-image: url("tools/imgProjectHayden.jpg"); }
+.cardProjectExchange { background-image: url("tools/imgProjectExchange.jpg"); }
+.cardProjectToDo { background-image: url("tools/imgProjectToDoList.jpg"); }
 
 .contentFootIcon {
     display: flex;
     justify-content: center;
     width: 100%;
     height: 50px;
-    border: 1px solid #232933;
+    border: 2px solid #232933;
     border-radius: 0px 0px 5px 5px;
 }
 
-.whiteGitHubIcon {
+.setGralFootText {
     display: flex;
-    background-image: url("tools/gitHubWhite.svg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    width: 32px;
-    height: 30px;
+    align-items: flex-end;
+    color: #232933;
+    font-size: 12px;
+    width: auto;
+    height: 42px;
 }
 
-.whiteWorldIcon {
+.setGralFootIcons {
     display: flex;
-    background-image: url("tools/worldWhite.svg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    width: 50px;
-    height: 50px;
-}
-
-.ss_ReactIcon {
-    display: flex;
-    background-image: url("tools/SS_React.svg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 50px;
@@ -336,52 +298,9 @@ section {
     height: 50px;
 }
 
-.ss_ReduxIcon {
-    display: flex;
-    background-image: url("tools/SS_Redux.svg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 50px;
-    width: 50px;
-    height: 50px;
-}
-
-.ss_GitIcon {
-    display: flex;
-    background-image: url("tools/SS_Git.svg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 50px;
-    width: 50px;
-    height: 50px;
-}
-
-.ss_HTMLIcon {
-    display: flex;
-    background-image: url("tools/SS_HTML.svg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 50px;
-    width: 50px;
-    height: 50px;
-}
-
-.ss_CSS3Icon {
-    display: flex;
-    background-image: url("tools/SS_CSS3.svg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 50px;
-    width: 50px;
-    height: 50px;
-}
-
-.ss_MaterialUIIcon {
-    display: flex;
-    background-image: url("tools/SS_MaterialUI.svg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 50px;
-    width: 50px;
-    height: 50px;
-}
+.ss_ReactIcon { background-image: url("tools/SS_React.svg"); }
+.ss_ReduxIcon { background-image: url("tools/SS_Redux.svg"); }
+.ss_GitIcon { background-image: url("tools/SS_Git.svg"); }
+.ss_HTMLIcon { background-image: url("tools/SS_HTML.svg"); }
+.ss_CSS3Icon { background-image: url("tools/SS_CSS3.svg"); }
+.ss_MaterialUIIcon { background-image: url("tools/SS_MaterialUI.svg"); }

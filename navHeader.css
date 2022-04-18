@@ -53,7 +53,6 @@ nav {
     height: auto;
 }
 
-/* NAV_X1 */
 .nav_c1 {
     display: flex;
     align-items: center;
@@ -403,7 +402,7 @@ header {
 }
 
 /* BUTTON LINKS - ICONS */
-.firstLogo {
+.github_SS {
     background-image: url("tools/gitHub_SS.png");
     background-repeat: no-repeat;
     background-attachment: inherit;
