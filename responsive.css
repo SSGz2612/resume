@@ -26,10 +26,6 @@
     }
     .section_a2_1 { justify-content: flex-start; }
     .section_a2_2 { padding: 0px; }
-
-    .gralSetProjectIcons {
-        width: 30%;
-    }
 }
 
 @media only screen and ( max-width: 991px ) {
@@ -49,6 +45,11 @@
     /* NAV */
     .nav_d1_2 { display: none; }
     .nav_e1 { display: none; }
+
+    /* SECTION */
+    .gralSetProjectIcons {
+        width: 30%;
+    }
 }
 
 @media only screen and ( max-width: 1439px ) {
